@@ -1,0 +1,142 @@
+// Variables
+// @import "config/variables";
+// @import	"config/mixins";
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #303039;
+  font-size: 16px;
+  font-size: 100%;
+}
+
+.logo {
+
+  svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .version-tag {
+    color: #909099;
+    font-size: 1rem;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 22px;
+    margin-left: 2px;
+    letter-spacing: .04em;
+  }
+}
+
+section {
+  padding: 3rem 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 300;
+  display: inline-block;
+  color: #909099;
+  margin: 0;
+}
+
+.input-group {
+
+  i {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 8px;
+    color: #a0a0a9;
+    cursor: pointer;
+  }
+
+}
+.input--search {
+  display: inline-block;
+  line-height: 30px;
+  width: 300px;
+  font-size: 1rem;
+  border: 1px solid #c0c0c9;
+  padding-left: 8px;
+  color: #be1e2d;
+  letter-spacing: -.02em;
+  float: right;
+
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #c0c0c9;
+  }
+
+  &::-moz-placeholder { /* Firefox 19+ */
+    color: #c0c0c9;
+  }
+
+  &:-ms-input-placeholder { /* IE 10+ */
+    color: #c0c0c9;
+  }
+}
+
+.input--search:focus {
+  outline: none;
+  border: 1px solid #be1e2d;
+  color: #be1e2d;
+
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    opacity: .5;
+  }
+
+  &::-moz-placeholder { /* Firefox 19+ */
+    opacity: .5;
+  }
+
+  &:-ms-input-placeholder { /* IE 10+ */
+    opacity: .5;
+  }
+
+}
+
+// .input--search[value=""] + i {
+//   display: none;
+// }
+
+// .input--search:not([value=""]):not(:focus) + i {
+//   display: block;
+// }
+
+
+.section-header {
+  border-bottom: 1px solid #d0d0d9;
+  margin-bottom: 2.5rem;
+
+  .grid__row {
+    margin-bottom: .5rem;
+  }
+}
+
+.icon-container {
+  padding: 1rem;
+  background: #f0f0f9;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 1rem;
+
+  i {
+    // override the default spacing in telicon.css
+    margin-right: 12px;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .input--search {
+    float: none;
+    width: 100%;
+  }
+  .icon-container {
+    margin-bottom: 0;
+  }
+}
+
+
+
+
