@@ -19,11 +19,11 @@
 
 @font-face {
   font-family: 'telicon';
-  src:url('../telicon.eot?4pmbdm');
-  src:url('../telicon.eot?4pmbdm#iefix') format('embedded-opentype'),
-      url('../telicon.ttf?4pmbdm') format('truetype'),
-      url('../telicon.woff?4pmbdm') format('woff'),
-      url('../telicon.svg?4pmbdm#telicon') format('svg');
+  src:url('fonts/telicon.eot?4pmbdm');
+  src:url('fonts/telicon.eot?4pmbdm#iefix') format('embedded-opentype'),
+      url('fonts/telicon.ttf?4pmbdm') format('truetype'),
+      url('fonts/telicon.woff?4pmbdm') format('woff'),
+      url('fonts/telicon.svg?4pmbdm#telicon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
