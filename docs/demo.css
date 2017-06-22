@@ -1,8 +1,15 @@
+html {
+  background: #be1e2d;
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   color: #444444;
   font-size: 16px;
   font-size: 100%;
+  border-top: 3px solid #be1e2d;
+  background: #ffffff;
+  margin: 0;
 }
 
 .logo svg {
@@ -102,6 +109,11 @@ section {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  transition: background .2s ease;
+}
+.icon-container:hover {
+  background: #be1e2d;
+  color: #ffffff;
 }
 .icon-container i {
   margin-right: 12px;

@@ -2,12 +2,18 @@
 // @import "config/variables";
 // @import	"config/mixins";
 
+html {
+  background: #be1e2d;
+}
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
   color: #444444;
   font-size: 16px;
   font-size: 100%;
+  border-top: 3px solid #be1e2d;
+  background: #ffffff;
+  margin: 0;
 }
 
 .logo {
@@ -116,6 +122,12 @@ section {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  transition: background .2s ease;
+
+  &:hover {
+    background: #be1e2d;
+    color: #ffffff;
+  }
 
   i {
     // override the default alignment in src telicon.css
