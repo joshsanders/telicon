@@ -82,24 +82,28 @@ section {
   &:-ms-input-placeholder { /* IE 10+ */
     color: #c4c4c4;
   }
+
+  &:focus {
+    outline: none;
+    border: 1px solid #be1e2d;
+    color: #be1e2d;
+
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      opacity: .5;
+    }
+
+    &::-moz-placeholder { /* Firefox 19+ */
+      opacity: .5;
+    }
+
+    &:-ms-input-placeholder { /* IE 10+ */
+      opacity: .5;
+    }
+  }
 }
 
 .input--search:focus {
-  outline: none;
-  border: 1px solid #be1e2d;
-  color: #be1e2d;
-
-  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    opacity: .5;
-  }
-
-  &::-moz-placeholder { /* Firefox 19+ */
-    opacity: .5;
-  }
-
-  &:-ms-input-placeholder { /* IE 10+ */
-    opacity: .5;
-  }
+  
 
 }
 
@@ -135,10 +139,6 @@ section {
     margin-right: 12px;
     margin-top: -4px;
   }
-}
-
-.overflow--ellipsis {
-
 }
 
 @media screen and (max-width: 48rem) {
