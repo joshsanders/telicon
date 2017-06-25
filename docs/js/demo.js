@@ -11,7 +11,6 @@ $(document).ready(function() {
     // console.info('Action:', e.action);
     // console.info('Words:', e.text);
     // console.info('Trigger:', e.trigger);
-
     // e.clearSelection();
 
     toastr["success"]("Class name copied to clipboard", toastr.options = {
@@ -24,17 +23,34 @@ $(document).ready(function() {
       "onclick": null,
       "showDuration": "300",
       "hideDuration": "1000",
-      "timeOut": "1000",
+      "timeOut": "1200",
       "extendedTimeOut": "1000",
       "showEasing": "swing",
       "hideEasing": "linear",
       "showMethod": "fadeIn",
       "hideMethod": "slideUp"
     });
-      
   });
   clipboard.on('error', function(e) {
-      console.log(e);
+      // console.log(e);
+
+    toastr["error"]("Something went wrong...try copying again", toastr.options = {
+      "closeButton": false,
+      "debug": false,
+      "newestOnTop": false,
+      "progressBar": false,
+      "positionClass": "toast-top-right",
+      "preventDuplicates": false,
+      "onclick": null,
+      "showDuration": "300",
+      "hideDuration": "1000",
+      "timeOut": "2000",
+      "extendedTimeOut": "1000",
+      "showEasing": "swing",
+      "hideEasing": "linear",
+      "showMethod": "fadeIn",
+      "hideMethod": "slideUp"
+    });
   });
 
   // main section pinned to top on scroll to maintain search visibility
