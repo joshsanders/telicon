@@ -1,0 +1,163 @@
+/*------------------------------------*\
+  #LAYOUT__GENERAL
+\*------------------------------------*/
+
+// has spyder/mixins and spyder/variables dependencies
+ 
+html {
+  background: #be1e2d;
+}
+
+body {
+	color: #444444;
+	background: #ffffff;
+	margin: 0;
+	min-height: 100vh;
+}
+
+section.icons {
+  padding: 2rem 0;
+}
+
+.section-header {
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 2.5rem;
+  transition: all .2s ease-out;
+
+  &.js-is-fixed {
+    position: fixed;
+    padding: 1rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #fff;
+
+    .grid__row {
+      margin-bottom: 0;
+    }
+  }
+
+  .grid__row {
+    margin-bottom: .5rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #949494;
+    margin: 0;
+  }
+
+  // .input-group {
+
+  //   i {
+  //     display: none;
+  //     position: absolute;
+  //     right: 20px;
+  //     top: 8px;
+  //     color: #a4a4a4;
+  //     cursor: pointer;
+  //   }
+
+  // }
+
+
+  .input--search {
+    // display: inline-block;
+    line-height: 2rem;
+    // width: 300px;
+    width: 100%;
+    font-size: 1rem;
+    border: 1px solid #c4c4c4;
+    padding-left: 8px;
+    color: #be1e2d;
+    letter-spacing: -.02em;
+    // float: right;
+
+    @include media-range(sm) {
+      float: none;
+      width: 100%;
+    }
+
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #949494;
+    }
+
+    &::-moz-placeholder { /* Firefox 19+ */
+      color: #949494;
+    }
+
+    &:-ms-input-placeholder { /* IE 10+ */
+      color: #949494;
+    }
+
+    &:focus {
+      outline: none;
+      border: 1px solid #be1e2d;
+      color: #be1e2d;
+
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        opacity: .5;
+      }
+
+      &::-moz-placeholder { /* Firefox 19+ */
+        opacity: .5;
+      }
+
+      &:-ms-input-placeholder { /* IE 10+ */
+        opacity: .5;
+      }
+    }
+  }
+}
+
+
+.icons-list {
+
+  &.js-fixed--mt-adjust {
+    margin-top: 5rem;
+  }
+
+}
+
+.icon-container {
+  padding: 1rem;
+  background: #f4f4f4;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  transition: all .2s ease;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: background .2s ease;
+
+  @include media-range(sm) {
+      margin-bottom: 0;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: #be1e2d;
+    color: #ffffff;
+  }
+
+  i {
+    // override the default alignment in src telicon.css
+    margin-right: 12px;
+    margin-top: -4px;
+  }
+}
+
+// @media screen and (max-width: 48rem) {
+//   .input--search {
+//     float: none;
+//     width: 100%;
+//   }
+//   .icon-container {
+//     margin-bottom: 0;
+//   }
+// }

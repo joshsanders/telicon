@@ -1,0 +1,33 @@
+/*------------------------------------*\
+  #LAYOUT__HEADER
+\*------------------------------------*/
+
+.header {
+	border-top: 3px solid #be1e2d; 
+	padding: 1rem 0 3rem;
+
+	.grid__row {
+		margin-bottom: 0;
+	}
+
+	.logo {
+		margin: 0;
+		line-height: 1;
+
+		svg {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.version-tag {
+			color: #949494;
+			font-size: 1rem;
+			font-weight: 600;
+			display: inline-block;
+			vertical-align: middle;
+			margin-top: 22px;
+			margin-left: -4px;
+			// letter-spacing: .04em;
+		}
+	}
+}

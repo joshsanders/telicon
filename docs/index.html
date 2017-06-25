@@ -3,21 +3,22 @@
 	<head>
 		<title>Telicon Reference Sheet</title>
 		<!-- favicons -->
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
 		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-		<!-- spyder 3.0 still in beta dev -->
-		<link rel="stylesheet" type="text/css" href="spyder-3.0.css">
 		<!-- insert Google web font -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,400i,600,700,900">
-		<link rel="stylesheet" type="text/css" href="telicon-3.0.css">
-		<link rel="stylesheet" type="text/css" href="demo.css">
+		<!-- telicon -->
+		<link rel="stylesheet" type="text/css" href="css/telicon-3.0.css">
+		<!-- toastr css -->
+		<!-- <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"> -->
+		<link rel="stylesheet" type="text/css" href="css/demo.css">
 		<!--[if lte IE 7]><script src="lte-ie7.js"></script><![endif]-->
 	</head>
 
 	<body>
-		<header>
+		<header class="header">
 			<div class="grid">
 				<div class="grid__row">
 					<div class="grid__col">
@@ -72,32 +73,37 @@
 			</div>  <!-- /grid -->
 		</header>
 
-		<section>
+		<section class="icons">
 			<div class="grid">
 				<header class="section-header">
 					<div class="grid__row">
-						<div class="grid__col">
+						<div class="col--lg-6_12 col--md-3_8 col--sm">
 							<h1 class="section-title">Icons Reference Sheet</h1>
 						</div>
-						<div class="grid__col">
-							<div class="input-group">
+						<div class="col--lg-6_12 col--md-3_8 col--sm">
+							<!-- <div class="input-group"> -->
 								<input class="input--search" placeholder="Search icons...">
-								<i class="telicon-x--circle" aria-hidden="true"></i>
-							</div>
+								<!-- <i class="telicon-x--circle" aria-hidden="true"></i> -->
+							<!-- </div> -->
 						</div>
 					</div>
 				</header>
 
-				<div class="grid__row icons">
+				<div class="grid__row icons-list js-populate-icons-list">
 					<!-- icons are inserted here by icons.js -->
 				</div>
 			</div>
 		</section>
 
-		<script type="text/javascript" src="jquery-1.9.1.js"></script>
-		<script type="text/javascript" src="clipboard.min.js"></script>
-		<script type="text/javascript" src="jquery.fastLiveFilter.js"></script>
-		<script type="text/javascript" src="icons.js"></script>
-		<script type="text/javascript" src="demo.js"></script>
+		<!-- <div class="clipboard-feedback">Copied</div> -->
+
+		<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="js/clipboard.min.js"></script>
+		<script type="text/javascript" src="js/jquery.fastLiveFilter.js"></script>
+		<!-- <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script> -->
+		<script type="text/javascript" src="js/toastr.js"></script>
+
+		<script type="text/javascript" src="js/icons.js"></script>
+		<script type="text/javascript" src="js/demo.js"></script>
 	</body>
 </html>

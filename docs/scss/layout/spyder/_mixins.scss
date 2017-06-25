@@ -1,0 +1,49 @@
+// mixin for using @include to control style of specific elements at diff. grid ranges
+@mixin media-range($range) {
+	@if $range == sm {
+		@media screen and (max-width: $media-break--sm-max) { 
+			@content;
+		}
+	}
+	@else if $range == md {
+		@media screen and (min-width: $media-break--md-min) and (max-width: $media-break--md-max) { 
+			@content; 
+		}
+	}
+	@else if $range == lg {
+		@media screen and (min-width: $media-break--lg-min) { 
+			@content; 
+		}
+  	}
+}
+
+@mixin gutter-compensation {
+	margin-right: $grid-gutter-compensation; //fix this to remove extra var and use calc fn on $grid-gutter var
+	margin-left: $grid-gutter-compensation;
+
+	@include media-range(lg) {
+		margin-right: $grid-gutter-compensation - .25rem ;
+		margin-left: $grid-gutter-compensation - .25rem ;
+	}
+}
+@mixin flex-container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+@mixin flex-column {
+	display: block;
+	padding: 0 $grid-gutter;
+	position: relative;
+	min-height: 1px;
+	flex-grow: 1;
+	flex-shrink: 1;
+
+	@include media-range(lg) {
+		padding-left: $grid-gutter + .25rem;
+		padding-right: $grid-gutter + .25rem;
+	}
+}
+

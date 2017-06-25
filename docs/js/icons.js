@@ -113,6 +113,6 @@ $(document).ready(function() {
     ];
 
     $.each(icons, function(index, value) {
-        $('.icons').append('<div class="col--lg-3_12 col--md-4_8 col--sm"><div class="icon-container" data-clipboard-text="' + value + '"><i class="'+ value +'"></i><span>' + value + '</span></div></div>');
+        $('.js-populate-icons-list').append('<div class="col--lg-3_12 col--md-4_8 col--sm"><div class="icon-container" data-clipboard-text="' + value + '"><i class="'+ value +'" aria-hidden="true"></i><span>' + value + '</span></div></div>');
     });
 });
