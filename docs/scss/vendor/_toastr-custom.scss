@@ -2,6 +2,8 @@
   #VENDOR__TOASTR-CUSTOM
 \*------------------------------------*/
 
+// has telicon/docs/fonts dependency for icons used in toastr notifications
+
 .toast-title {
   font-weight: bold;
 }
@@ -103,7 +105,7 @@ button.toast-close-button {
   // padding: 15px 15px 15px 50px;
   padding: .75rem;
 
-  width: 300px;
+  // width: 300px;
   -moz-border-radius:     3px;
   -webkit-border-radius:  3px;
   border-radius:          3px;
@@ -203,7 +205,7 @@ button.toast-close-button {
   // background-color: #51a351;
 
   // background-color: #47ce47;
-   background-color: #2acc2a;
+  background-color: #2acc2a;
 }
 .toast-warning {
   // background-color: #f89406;
@@ -230,8 +232,8 @@ button.toast-close-button {
 /*Responsive Design*/
 @media all and (max-width: 240px) {
   #toast-container > div {
-    padding: 8px 8px 8px 50px;
-    width: 11em;
+    padding: .75rem;
+    // width: 11em;
   }
   #toast-container .toast-close-button {
     right: -0.2em;
@@ -240,8 +242,8 @@ button.toast-close-button {
 }
 @media all and (min-width: 241px) and (max-width: 480px) {
   #toast-container > div {
-    padding: 8px 8px 8px 50px;
-    width: 18em;
+    padding: .75rem;
+    // width: 18em;
   }
   #toast-container .toast-close-button {
     right: -0.2em;
@@ -250,7 +252,7 @@ button.toast-close-button {
 }
 @media all and (min-width: 481px) and (max-width: 768px) {
   #toast-container > div {
-    padding: 15px 15px 15px 50px;
-    width: 25em;
+    padding: .75rem;
+    // width: 25em;
   }
 }

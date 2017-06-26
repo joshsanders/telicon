@@ -2249,7 +2249,6 @@ button.toast-close-button {
   overflow: hidden;
   margin: 0 0 6px;
   padding: .75rem;
-  width: 300px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -2331,24 +2330,21 @@ button.toast-close-button {
 /*Responsive Design*/
 @media all and (max-width: 240px) {
   #toast-container > div {
-    padding: 8px 8px 8px 50px;
-    width: 11em; }
+    padding: .75rem; }
 
   #toast-container .toast-close-button {
     right: -0.2em;
     top: -0.2em; } }
 @media all and (min-width: 241px) and (max-width: 480px) {
   #toast-container > div {
-    padding: 8px 8px 8px 50px;
-    width: 18em; }
+    padding: .75rem; }
 
   #toast-container .toast-close-button {
     right: -0.2em;
     top: -0.2em; } }
 @media all and (min-width: 481px) and (max-width: 768px) {
   #toast-container > div {
-    padding: 15px 15px 15px 50px;
-    width: 25em; } }
+    padding: .75rem; } }
 *,
 *:after,
 *:before {
