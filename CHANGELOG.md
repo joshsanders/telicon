@@ -14,10 +14,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ---
 
-## [1.0.0] - 2017-06-21
+## [1.0.0] - `2017-06-21`
 
 ### Added
-- 35 new icons added | 'telicon/icons/svg/...'
+- 35 new icons added `telicon/icons/svg/...`
   * arrow-up--circle-o
   * arrow-right--circle-o
   * arrow-down--circle-o
@@ -36,7 +36,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
   * mic
   * minus--circle-o
   * move-file
-  * downgrade
   * num-pad
   * number
   * park--circle
@@ -55,7 +54,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
   * x--circle-o
 
 ### Changed
-- Major overhaul of namespacing to aid in categorization of icons. Naming now follows the pattern of '**x--y-z**', where:
+- Major overhaul of namespacing to aid in categorization of icons. Naming now follows the pattern of `x--y-z`, where:
   * x = icon-name
   * y = modifier (usually a container variation or visual modification of a dynamic icon)
   * z = denotes that the modifying container is outlined
@@ -71,7 +70,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ---
 
-## [0.1.0] thru [0.5.0] - 2015-2017
+## [0.1.0] thru [0.5.0] - `2015-2017`
 
 **This changelog begins with the notes(directly above) on Telicon 1.0.0. The initial implementation and updates to Telicon went undocumented as they were mostly foundational.**
 
