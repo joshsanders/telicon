@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [1.0.0](https://github.com/joshsanders/telicon) - 2017-06-21
 
 ### Added
-* 35 new icons added
+* 35 new icons added | 'telicon/icons/svg/...'
   * arrow-up--circle-o
   * arrow-right--circle-o
   * arrow-down--circle-o
@@ -55,16 +55,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
   * x--circle-o
 
 ### Changed
-* Major overhaul of namespacing to aid in categorization of icons.
-  * Naming now follows the pattern of **x--y-z**, where:
-    * x = icon-name
-    * y = modifier (usually a container variation or visual modification of a dynamic icon)
-    * z = denotes that the modifying container is outlined
+* Major overhaul of namespacing to aid in categorization of icons. Naming now follows the pattern of '**x--y-z**', where:
+  * x = icon-name
+  * y = modifier (usually a container variation or visual modification of a dynamic icon)
+  * z = denotes that the modifying container is outlined
 
-* Updated existing rounded icon style to squared. This will allow for quicker development of new icons while increasing the crispness of edges in certain icons
-
+* Updated existing(all) icon styling from rounded to squared. This will allow for quicker development of new icons while increasing the crispness of edges in certain icons
 
 ### Fixed
 
 ---
 
+## 0.1.0 thru 0.5.0 - 2015-2017
+
+**This changelog begins with the notes(directly above) on Telicon 1.0.0. The initial implementation and updates to Telicon went undocumented as they were mostly foundational.**
+
+---
