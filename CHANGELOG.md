@@ -17,15 +17,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [1.0.0] - 2017-06-21
 
 ### Added
-* 35 new icons added | 'telicon/icons/svg/...'
- * arrow-up--circle-o
- * arrow-right--circle-o
- * arrow-down--circle-o
- * arrow-left--circle-o
- * billing-last
- * calendar-plus
- * clock
- * dashboard-grid
+- 35 new icons added | 'telicon/icons/svg/...'
+  * arrow-up--circle-o
+  * arrow-right--circle-o
+  * arrow-down--circle-o
+  * arrow-left--circle-o
+  * billing-last
+  * calendar-plus
+  * clock
+  * dashboard-grid
   * downgrade
   * download
   * enter
@@ -56,15 +56,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 - Major overhaul of namespacing to aid in categorization of icons. Naming now follows the pattern of '**x--y-z**', where:
- * x = icon-name
- * y = modifier (usually a container variation or visual modification of a dynamic icon)
- * z = denotes that the modifying container is outlined
+  * x = icon-name
+  * y = modifier (usually a container variation or visual modification of a dynamic icon)
+  * z = denotes that the modifying container is outlined
 
 - Updated existing(all) icon styling from rounded to squared. This will allow for quicker development of new icons while increasing the crispness of edges in certain icons
 
 ### Removed
 - Icons removed (or edited and renamed)
- *   
+  * configuration
+  * international-call
+  * international-number
+  * seats
 
 ---
 
