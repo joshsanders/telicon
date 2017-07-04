@@ -1,8 +1,6 @@
 # Changelog
 All notable changes to this project will be documented in this file.
-
-The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
-and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
@@ -17,7 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [1.0.0] - `2017-06-21`
 
 ### Added
-- 35 new icons added `telicon/icons/svg/...`
+- 34 new icons added `telicon/icons/svg/...`
   * arrow-up--circle-o
   * arrow-right--circle-o
   * arrow-down--circle-o
@@ -56,8 +54,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 - Major overhaul of namespacing to aid in categorization of icons. Naming now follows the pattern of `x--y-z`, where:
   * x = icon-name
-  * y = modifier (usually a container variation or visual modification of a dynamic icon)
-  * z = denotes that the modifying container is outlined
+  * --y = modifier (usually a container variation or visual modification of a dynamic icon)
+  * -z = denotes that the modifying container is outlined
 
 - Updated existing(all) icon styling from rounded to squared. This will allow for quicker development of new icons while increasing the crispness of edges in certain icons
 
@@ -72,6 +70,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [0.1.0] thru [0.5.0] - `2015-2017`
 
-**This changelog begins with the notes(directly above) on Telicon 1.0.0. The initial implementation and updates to Telicon went undocumented as they were mostly foundational.**
+**This changelog begins with the notes(directly above) on Telicon 1.0.0. The initial implementation and updates to Telicon went undocumented and are being considered as foundational.**
 
 ---
