@@ -52,12 +52,15 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
   * x--circle-o
 
 ### Changed
-- Major overhaul of namespacing to aid in categorization of icons. Naming now follows the pattern of `x--y-z`, where:
+- Major overhaul of namespacing to aid in categorization of icons. Naming now follows the pattern of `x--y-z`, where
   * x = icon-name
   * --y = modifier (usually a container variation or visual modification of a dynamic icon)
   * -z = denotes that the modifying container is outlined
 
 - Updated existing(all) icon styling from rounded to squared. This will allow for quicker development of new icons while increasing the crispness of edges in certain icons
+
+### Deprecated
+- Namespacing that uses the 'icon' prefix is now considered deprecated. For new/current namespacing, see the **Changed** section above.
 
 ### Removed
 - Icons removed (or edited and renamed)
