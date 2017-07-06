@@ -15,7 +15,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ## [1.0.0] - `2017-06-21`
 
 ### Added
-- 34 new icons added `telicon/icons/svg/...`
+- 34 new icons added `icons/svg/...`
   * arrow-up--circle-o
   * arrow-right--circle-o
   * arrow-down--circle-o
@@ -60,7 +60,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 - Updated existing(all) icon styling from rounded to squared. This will allow for quicker development of new icons while increasing the crispness of edges in certain icons
 
 ### Deprecated
-- Namespacing that uses the 'icon' prefix is now considered deprecated. For new/current namespacing, see the **Changed** section above.
+- Namespacing that uses the 'icon' prefix is now considered deprecated, and will be sunsetted in the coming  For new/current namespacing, see the **Changed** section above.
 
 ### Removed
 - Icons removed (or edited and renamed)
