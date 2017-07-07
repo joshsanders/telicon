@@ -27,11 +27,11 @@
 
 @font-face {
   font-family: 'telicon';
-  src:url('../fonts/telicon.eot?4pmbdm');
-  src:url('../fonts/telicon.eot?4pmbdm#iefix') format('embedded-opentype'),
-      url('../fonts/telicon.ttf?4pmbdm') format('truetype'),
-      url('../fonts/telicon.woff?4pmbdm') format('woff'),
-      url('../fonts/telicon.svg?4pmbdm#telicon') format('svg');
+  src:url('fonts/telicon.eot?4pmbdm');
+  src:url('fonts/telicon.eot?4pmbdm#iefix') format('embedded-opentype'),
+      url('fonts/telicon.ttf?4pmbdm') format('truetype'),
+      url('fonts/telicon.woff?4pmbdm') format('woff'),
+      url('fonts/telicon.svg?4pmbdm#telicon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -55,8 +55,8 @@
 
 [class^="telicon-"], 
 [class*=" telicon-"],
-/* [1] */ [class^="icon-telicon-"], 
-/* [1] */ [class*=" icon-telicon-"] {
+[class^="icon-telicon-"], /* [1] */
+[class*=" icon-telicon-"] {
   font-family: 'telicon' !important; /* [3] */
   speak: none;
   font-size: 18px;
