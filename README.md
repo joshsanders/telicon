@@ -1,8 +1,8 @@
+<h1 align="center"><img src="https://cdn.rawgit.com/joshsanders/telicon/49201d3c/docs/logo.svg" alt="Telicon" width="50%"></h1>
+<!-- ![Telicon Logo ](https://cdn.rawgit.com/joshsanders/telicon/49201d3c/docs/logo.svg) -->
+
 # Telicon
 A telecom-centric, SVG-based icon font designed for Monster UI&mdash;an interface layer for the Unified Communications platform [KAZOO](https://github.com/2600hz/kazoo).
-
-<!-- <h1 align="center"><img src="docs/logo.svg" alt="Telicon" width="50%"></h1> -->
-![Telicon Logo ](https://cdn.rawgit.com/joshsanders/telicon/49201d3c/docs/logo.svg)
 
 ## Project Progress
 Keep track of Telicon's progress through the project's [CHANGELOG.md](https://github.com/joshsanders/telicon/CHANGELOG.md) file.
