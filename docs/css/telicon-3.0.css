@@ -1,6 +1,8 @@
-/*
+/*  
+ *  =======================
  *  Telicon 1.0.0  (c) 2017
- *  -----------------------
+ *  =======================
+ *  
  *  A telecom-centric, SVG-based icon font designed for Monster UI - an interface layer for the 
  *  Unified Communications platform KAZOO (https://github.com/2600hz/kazoo)
  *
@@ -34,25 +36,6 @@
   font-style: normal;
 }
 
-[class^="telicon-"], 
-[class*=" telicon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'telicon' !important;
-  speak: none;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: inherit;
-  /* controls display and alignment */
-  display: inline-block;
-  vertical-align: middle;
-  /* Better Font Rendering */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 /*
  *  Telicon uses the Unicode Private Use Area (PUA) to ensure screen readers do not read off random 
  *  characters that represent icons
@@ -64,7 +47,29 @@
  *  [2] Additional classes may be mapped to certain icons. These are classes from 0.2.0 that have been
  *  aliased to a newer icon due to the older version from 0.2.0 being removed and/or changed and renamed
  *
+ *  [3] Use !important to prevent issues with browswer extensions that change fonts
+ *
+ *  [4] Controls icon display and alignment
+ *
 */
+
+[class^="telicon-"], 
+[class*=" telicon-"],
+/* [1] */ [class^="icon-telicon-"], 
+/* [1] */ [class*=" icon-telicon-"] {
+  font-family: 'telicon' !important; /* [3] */
+  speak: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;  /* [4] */  
+  vertical-align: middle; /* [4] */  
+}
 
 .telicon-account-jump:before,
 /* [1] */ .icon-telicon-account-jump:before { 
