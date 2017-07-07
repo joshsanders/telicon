@@ -1,15 +1,21 @@
 /*
- *  Telicon v3.0  (c) 2017
- *  -------------------------------------------------------
- *  A telecom-centric, SVG-based icon font designed for Monster UI - an interface layer for the Unified Communications platform KAZOO
+ *  Telicon 1.0.0  (c) 2017
+ *  -----------------------
+ *  A telecom-centric, SVG-based icon font designed for Monster UI - an interface layer for the 
+ *  Unified Communications platform KAZOO (https://github.com/2600hz/kazoo)
  *
- *  Last Updated: 6.17 [see changelog for details]
- *  github.com/joshsanders/Telicon
+ *  Full project can be viewed on github (https://github.com/joshsanders/telicon)
  *
+ *  Last Updated: 7.17
+ *  ------------------ 
+ *  see CHANGELOG.md for updates (https://github.com/joshsanders/telicon/blob/master/CHANGELOG.md)
+ *  
  *  License
- *  -------------------------------------------------------
- *  - Telicon is licensed under the MIT License - http://opensource.org/licenses/mit-license.html
- *  - Attribution is NOT required in your designs. However, this comment content must NOT be removed.
+ *  -------
+ *  Telicon is licensed under the MIT License. You can view the LICENSE.md file in this project's repo, 
+ *  or read more here (http://opensource.org/licenses/mit-license.html)
+ *
+ *  !! Attribution is NOT required in your designs. However, this comment content must NOT be removed.
  *  
  *  Designed By:
  *  ------------ 
@@ -48,17 +54,28 @@
 }
 
 /*
- *  Telicon uses the Unicode Private Use Area (PUA) to ensure screen
- *  readers do not read off random characters that represent icons 
+ *  Telicon uses the Unicode Private Use Area (PUA) to ensure screen readers do not read off random 
+ *  characters that represent icons
+ *  
+ *  [1] Some icons contain a second class that starts with the prefix 'icon'. These are the deprecated
+ *  classes and naming convention from version 0.2.0 and are mapped to the correct corresponding icon 
+ *  in 1.0.0 for backwards compatibility.
+ *
+ *  [2] Additional classes may be mapped to certain icons. These are classes from 0.2.0 that have been
+ *  aliased to a newer icon due to the older version from 0.2.0 being removed and/or changed and renamed
+ *
 */
 
-.telicon-account-jump:before {
+.telicon-account-jump:before,
+/* [1] */ .icon-telicon-account-jump:before { 
   content: "\e900";
 }
-.telicon-account:before {
+.telicon-account:before,
+/* [1] */ .icon-telicon-account:before {
   content: "\e901";
 }
-.telicon-apps:before {
+.telicon-apps:before,
+/* [1] */ .icon-telicon-apps:before {
   content: "\e902";
 }
 .telicon-arrow-down--circle-o:before {
@@ -67,7 +84,8 @@
 .telicon-arrow-down--circle:before {
   content: "\e904";
 }
-.telicon-arrow-down:before {
+.telicon-arrow-down:before,
+/* [1] */ .icon-telicon-arrow-down:before {
   content: "\e905";
 }
 .telicon-arrow-left--circle-o:before {
@@ -76,7 +94,8 @@
 .telicon-arrow-left--circle:before {
   content: "\e907";
 }
-.telicon-arrow-left:before {
+.telicon-arrow-left:before,
+/* [1] */ .icon-telicon-arrow-left:before {
   content: "\e908";
 }
 .telicon-arrow-right--circle-o:before {
@@ -85,7 +104,8 @@
 .telicon-arrow-right--circle:before {
   content: "\e90a";
 }
-.telicon-arrow-right:before {
+.telicon-arrow-right:before,
+/* [1] */ .icon-telicon-arrow-right:before {
   content: "\e90b";
 }
 .telicon-arrow-up--circle-o:before {
@@ -94,91 +114,116 @@
 .telicon-arrow-up--circle:before {
   content: "\e90d";
 }
-.telicon-arrow-up:before {
+.telicon-arrow-up:before,
+/* [1] */.icon-telicon-arrow-up:before {
   content: "\e90e";
 }
-.telicon-assign:before {
+.telicon-assign:before,
+/* [1] */ .icon-telicon-assign:before {
   content: "\e90f";
 }
-.telicon-available-balance:before {
+.telicon-available-balance:before,
+/* [1] */ .icon-telicon-available-balance:before {
   content: "\e910";
 }
-.telicon-billing-history:before {
+.telicon-billing-history:before,
+/* [1] */ .icon-telicon-billing-history:before {
   content: "\e911";
 }
 .telicon-billing-last:before {
   content: "\e912";
 }
-.telicon-billing-transactions:before {
+.telicon-billing-transactions:before,
+/* [1] */ .icon-telicon-transactions:before {
   content: "\e913";
 }
-.telicon-billing:before {
+.telicon-billing:before,
+/* [1] */ .icon-telicon-billing:before {
   content: "\e914";
 }
 .telicon-calendar-plus:before {
   content: "\e915";
 }
-.telicon-calendar:before {
+.telicon-calendar:before,
+/* [1] */ .icon-telicon-calendar:before {
   content: "\e916";
 }
-.telicon-caret-down:before {
+.telicon-caret-down:before,
+/* [1] */ .icon-telicon-caret-down:before {
   content: "\e917";
 }
-.telicon-caret-left:before {
+.telicon-caret-left:before,
+/* [1] */ .icon-telicon-caret-left:before {
   content: "\e918";
 }
-.telicon-caret-right:before {
+.telicon-caret-right:before,
+/* [1] */ .icon-telicon-caret-right:before {
   content: "\e919";
 }
-.telicon-caret-up:before {
+.telicon-caret-up:before,
+/* [1] */ .icon-telicon-caret-up:before {
   content: "\e91a";
 }
 .telicon-check--circle-o:before {
   content: "\e91b";
 }
-.telicon-check--circle:before {
+.telicon-check--circle:before,
+/* [1] */ .icon-telicon-check-circle:before {
   content: "\e91c";
 }
-.telicon-clock:before {
+.telicon-clock:before,
+/* [1] */ .icon-telicon-per-minute:before {
   content: "\e91d";
 }
-.telicon-credit-1x-charge:before {
+.telicon-credit-1x-charge:before,
+/* [1] */ .icon-telicon-onetime-charge:before {
   content: "\e91e";
 }
-.telicon-credit-card-plus:before {
+.telicon-credit-card-plus:before,
+/* [1] */ .icon-telicon-add-credit:before {
   content: "\e91f";
 }
-.telicon-credit-card:before {
+.telicon-credit-card:before,
+/* [1] */ .icon-telicon-credit-card:before {
   content: "\e920";
 }
-.telicon-credit-prorated-charge:before {
+.telicon-credit-prorated-charge:before,
+/* [1] */ .icon-telicon-prorated-charge:before {
   content: "\e921";
 }
 .telicon-dashboard-grid:before {
   content: "\e922";
 }
-.telicon-dashboard-needle:before {
+.telicon-dashboard-needle:before,
+/* [1] */ .icon-telicon-dashboard:before {
   content: "\e923";
 }
-.telicon-device-ata:before {
+.telicon-device-ata:before,
+/* [1] */ .icon-telicon-ata:before {
   content: "\e924";
 }
-.telicon-device-fax:before {
+.telicon-device-fax:before,
+/* [1] */ .icon-telicon-fax:before {
   content: "\e925";
 }
-.telicon-device-mobile:before {
+.telicon-device-mobile:before,
+/* [1] */ .icon-telicon-mobile-phone:before  {
   content: "\e926";
 }
-.telicon-device-soft-phone:before {
+.telicon-device-soft-phone:before,
+/* [1] */ .icon-telicon-soft-phone:before {
   content: "\e927";
 }
-.telicon-device-sprint-phone:before {
+.telicon-device-sprint-phone:before,
+/* [1] */ .icon-telicon-sprint-phone:before {
   content: "\e928";
 }
-.telicon-device-tablet:before {
+.telicon-device-tablet:before,
+/* [1] */ .icon-telicon-tablet:before {
   content: "\e929";
 }
-.telicon-device-voip-phone:before {
+.telicon-device-voip-phone:before,
+/* [1] */ .icon-telicon-voip-phone:before {
   content: "\e92a";
 }
 .telicon-downgrade:before {
@@ -190,13 +235,16 @@
 .telicon-enter:before {
   content: "\e92d";
 }
-.telicon-exit:before {
+.telicon-exit:before,
+/* [1] */ .icon-telicon-exit:before {
   content: "\e92e";
 }
-.telicon-extension:before {
+.telicon-extension:before,
+/* [1] */ .icon-telicon-extensions:before {
   content: "\e92f";
 }
-.telicon-failover:before {
+.telicon-failover:before,
+/* [1] */ .icon-telicon-failover:before {
   content: "\e930";
 }
 .telicon-file-o:before {
@@ -205,37 +253,46 @@
 .telicon-folder:before {
   content: "\e932";
 }
-.telicon-forward:before {
+.telicon-forward:before,
+/* [1] */ .icon-telicon-forward:before {
   content: "\e933";
 }
-.telicon-global:before {
+.telicon-global:before,
+/* [1] */ .icon-telicon-global:before {
   content: "\e934";
 }
-.telicon-headphones-deafen:before {
+.telicon-headphones-deafen:before,
+/* [1] */ .icon-telicon-deafen:before {
   content: "\e935";
 }
 .telicon-headphones:before {
   content: "\e936";
 }
-.telicon-home:before {
+.telicon-home:before,
+/* [1] */ .icon-telicon-home:before {
   content: "\e937";
 }
 .telicon-info--circle-o:before {
   content: "\e938";
 }
-.telicon-info--circle:before {
+.telicon-info--circle:before,
+/* [1] */ .icon-telicon-info-circled:before {
   content: "\e939";
 }
-.telicon-ip:before {
+.telicon-ip:before,
+/* [1] */ .icon-telicon-ip:before {
   content: "\e93a";
 }
-.telicon-list-prioritize:before {
+.telicon-list-prioritize:before,
+/* [1] */ .icon-telicon-prioritize:before {
   content: "\e93b";
 }
-.telicon-list:before {
+.telicon-list:before,
+/* [1] */ .icon-telicon-list:before {
   content: "\e93c";
 }
-.telicon-main-office:before {
+.telicon-main-office:before,
+/* [1] */ .icon-telicon-main-office:before  {
   content: "\e93d";
 }
 .telicon-mic-muted:before {
@@ -247,13 +304,15 @@
 .telicon-minus--circle-o:before {
   content: "\e940";
 }
-.telicon-minus--circle:before {
+.telicon-minus--circle:before,
+/* [1] */ .icon-telicon-minus-circled:before {
   content: "\e941";
 }
 .telicon-move-file:before {
   content: "\e942";
 }
-.telicon-multiple-items:before {
+.telicon-multiple-items:before,
+/* [1] */ .icon-telicon-multiple-items:before {
   content: "\e943";
 }
 .telicon-num-pad:before {
@@ -274,22 +333,28 @@
 .telicon-pause--circle:before {
   content: "\e949";
 }
-.telicon-pbx:before {
+.telicon-pbx:before,
+/* [1] */ .icon-telicon-pbx:before {
   content: "\e94a";
 }
 .telicon-phone-answer:before {
   content: "\e94b";
 }
-.telicon-phone-hangup:before {
+.telicon-phone-hangup:before,
+/* [1] */ .icon-telicon-hangup:before {
   content: "\e94c";
 }
-.telicon-phone-inbound:before {
+.telicon-phone-inbound:before,
+/* [1] */ .icon-telicon-inbound-call:before,
+/* [2] */ .icon-telicon-inbound-trunk:before {
   content: "\e94d";
 }
 .telicon-phone-missed:before {
   content: "\e94e";
 }
-.telicon-phone-outbound:before {
+.telicon-phone-outbound:before,
+/* [1] */ .icon-telicon-outbound-call:before,
+/* [2] */ .icon-telicon-outbound-trunk:before {
   content: "\e94f";
 }
 .telicon-pie-chart--full:before {
@@ -307,40 +372,51 @@
 .telicon-plus--circle-o:before {
   content: "\e954";
 }
-.telicon-plus--circle:before {
+.telicon-plus--circle:before,
+/* [1] */ .icon-telicon-plus-circled:before {
   content: "\e955";
 }
-.telicon-porting:before {
+.telicon-porting:before,
+/* [1] */ .icon-telicon-porting:before {
   content: "\e956";
 }
 .telicon-question--circle-o:before {
   content: "\e957";
 }
-.telicon-question--circle:before {
+.telicon-question--circle:before,
+/* [1] */ .icon-telicon-question-circled:before {
   content: "\e958";
 }
-.telicon-root-level:before {
+.telicon-root-level:before,
+/* [1] */ .icon-telicon-root-level:before {
   content: "\e959";
 }
-.telicon-service-plan:before {
+.telicon-service-plan:before,
+/* [1] */ .icon-telicon-service-plan:before  {
   content: "\e95a";
 }
-.telicon-service-providers:before {
+.telicon-service-providers:before,
+/* [1] */ .icon-telicon-service-providers:before {
   content: "\e95b";
 }
-.telicon-setting-cog-double:before {
+.telicon-setting-cog-double:before,
+/* [1] */ .icon-telicon-setting-cog-double:before {
   content: "\e95c";
 }
-.telicon-setting-cog:before {
+.telicon-setting-cog:before,
+/* [1] */ .icon-telicon-setting-cog:before  {
   content: "\e95d";
 }
-.telicon-speaking:before {
+.telicon-speaking:before,
+/* [1] */ .icon-telicon-speaking:before {
   content: "\e95e";
 }
-.telicon-two-way:before {
+.telicon-two-way:before,
+/* [1] */ .icon-telicon-two-way:before {
   content: "\e95f";
 }
-.telicon-unassign:before {
+.telicon-unassign:before,
+/* [1] */ .icon-telicon-unassign:before {
   content: "\e960";
 }
 .telicon-upgrade:before {
@@ -349,31 +425,38 @@
 .telicon-upload:before {
   content: "\e962";
 }
-.telicon-user-admin:before {
+.telicon-user-admin:before,
+/* [1] */ .icon-telicon-moderator:before {
   content: "\e963";
 }
 .telicon-user-group:before {
   content: "\e964";
 }
-.telicon-user-plus:before {
+.telicon-user-plus:before,
+/* [1] */ .icon-telicon-add-user:before {
   content: "\e965";
 }
-.telicon-user:before {
+.telicon-user:before,
+/* [1] */ .icon-telicon-user:before,
+/* [2] */ .icon-telicon-seats:before {
   content: "\e966";
 }
-.telicon-voicemail:before {
+.telicon-voicemail:before,
+/* [1] */ .icon-telicon-voicemail:before {
   content: "\e967";
 }
 .telicon-warning--triangle-o:before {
   content: "\e968";
 }
-.telicon-warning--triangle:before {
+.telicon-warning--triangle:before,
+/* [1] */ .icon-telicon-warning:before {
   content: "\e969";
 }
 .telicon-x--circle-o:before {
   content: "\e96a";
 }
-.telicon-x--circle:before {
+.telicon-x--circle:before,
+/* [1] */ .icon-telicon-x-circled:before {
   content: "\e96b";
 }
 

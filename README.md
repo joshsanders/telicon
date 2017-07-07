@@ -19,7 +19,7 @@ The following tools are currently used to design and produce icons:
 * IcoMoon
 
 ### SVG Sprite
-A buildout of an svg 'sprite' is currently in the development process, and can be tracked via this project's [CHANGELOG.md](https://github.com/joshsanders/telicon/blob/master/CHANGELOG.md) file.
+A buildout of a svg sprite implementation is currently in the development process, and can be tracked under the via this project's [CHANGELOG.md](https://github.com/joshsanders/telicon/blob/master/CHANGELOG.md) file.
 
 ## Versioning
 Telicon will be maintained under the [Semantic Versioning guidelines](http://semver.org) as much as possible. Releases will be numbered with the following format:
@@ -34,3 +34,7 @@ And constructed with the following guidelines:
 
 ## Copyright and License
 The icons, code, and assets included in project are licensed under the The MIT License (MIT) - see [this project's license file](https://github.com/joshsanders/telicon/blob/master/LICENSE.md) for details.
+
+## Colophon
+Designed and maintained by: Josh Sanders | Design Director, 2600Hz
+joshsandersdesign@gmail.com

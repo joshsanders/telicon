@@ -5,6 +5,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ## [Unreleased]
 
 ### Added
+- SVG sprite currently in buildout phase
 
 ### Changed
 
@@ -16,58 +17,64 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 - 34 new icons added `icons/svg/...`
-  * arrow-up--circle-o
-  * arrow-right--circle-o
-  * arrow-down--circle-o
-  * arrow-left--circle-o
-  * billing-last
-  * calendar-plus
-  * clock
-  * dashboard-grid
-  * downgrade
-  * download
-  * enter
-  * folder
-  * headphones
-  * info--circle-o
-  * mic-muted
-  * mic
-  * minus--circle-o
-  * move-file
-  * num-pad
-  * number
-  * park--circle
-  * park--circle-o
-  * pause--circle
-  * pause--circle-o
-  * phone-answer
-  * phone-missed
-  * pie-chart--full
-  * pie-chart--partial
-  * play--circle
-  * play--circle-o
-  * plus--circle-o
-  * upgrade
-  * upload
-  * x--circle-o
+  * `arrow-up--circle-o`
+  * `arrow-right--circle-o`
+  * `arrow-down--circle-o`
+  * `arrow-left--circle-o`
+  * `billing-last`
+  * `calendar-plus`
+  * `clock`
+  * `dashboard-grid`
+  * `downgrade`
+  * `download`
+  * `enter`
+  * `folder`
+  * `headphones`
+  * `info--circle-o`
+  * `mic-muted`
+  * `mic`
+  * `minus--circle-o`
+  * `move-file`
+  * `num-pad`
+  * `number`
+  * `park--circle`
+  * `park--circle-o`
+  * `pause--circle`
+  * `pause--circle-o`
+  * `phone-answer`
+  * `phone-missed`
+  * `pie-chart--full`
+  * `pie-chart--partial`
+  * `play--circle`
+  * `play--circle-o`
+  * `plus--circle-o`
+  * `upgrade`
+  * `upload`
+  * `x--circle-o`
 
 ### Changed
 - Major overhaul of namespacing to aid in categorization of icons. Naming now follows the pattern of `x--y-z`, where
-  * x = icon-name
-  * --y = modifier (usually a container variation or visual modification of a dynamic icon)
-  * -z = denotes that the modifying container is outlined
+  * `x` = icon-name
+  * `--y` = modifier (usually a container variation or visual modification of a dynamic icon)
+  * `-z` = denotes that the icon, or modifying container, is outlined
 
 - Updated existing(all) icon styling from rounded to squared. This will allow for quicker development of new icons while increasing the crispness of edges in certain icons
 
+- Icons from `0.2.0` renamed or aliased to a new icon in `1.0.0`
+  * `inbound-trunk` aliased to `phone-inbound`
+  * `outbound-trunk` aliased to `phone-outbound`
+  * `seats` aliased to `user`
+
 ### Deprecated
-- Namespacing that uses the 'icon' prefix is now considered deprecated, and will be sunsetted in the coming  For new/current namespacing, see the **Changed** section above.
+- Namespacing that uses the 'icon' prefix is now considered deprecated. Old icon class names from `0.2.0` are mapped to the correct corresponding icons in this update(`1.0.0`). For new/current namespacing, see the [**Changed**] section above.
 
 ### Removed
-- Icons removed (or edited and renamed)
-  * configuration
-  * international-call
-  * international-number
-  * seats
+- Icons removed
+  * `account-settings`
+  * `configuration`
+  * `international-call`
+  * `international-number`
+  * `loading-circle`
 
 ---
 
