@@ -1,0 +1,115 @@
+/*------------------------------------*\
+  #CONFIG
+\*------------------------------------*/
+
+// This file contains the required variables and mixins for configuring your grid
+
+// Contents:
+// ---------
+// 1. Grid Variables
+// 2. Mixin for targeting Grid-ranges 
+// 3. Helper mixins 
+
+
+
+
+// |=====================================
+// | 1. Grid Variables       
+// |=====================================
+// |
+// | [1] - Main grid configuration
+// | [2] - Breakpoints for grid-range mixin
+// |
+// | Assuming 1rem = 16px 'base'
+
+// [1]
+$grid-width: 100%;
+$grid-max-width: 90rem;	//1440px 
+$grid-gutter: .75rem;
+
+// [2]
+$sm--max: 48rem;		//768px 
+$md--min: 48.0625rem;	//769px 
+$md--max: 68.75rem;		//1100px 
+$lg--min: 68.8125rem;	//1101px 
+
+
+
+
+// |=====================================
+// | 2. Grid-range Mixin       
+// |=====================================
+// |
+// | Creates media-queries that are mapped to the responsive grid-ranges and columns
+// | 
+// | Example Usage:
+// |
+// | .my-element {
+// |	*styles*
+// |	
+// |	@include grid(md) {
+// |		*styles*
+// | 	}
+// |
+// |	@include grid(lg) {
+// | 		*styles* 
+// | 	}
+// | }
+
+
+@mixin grid($range) {
+	@if $range == sm {
+		@media screen and (max-width: $sm--max) { 
+			@content;
+		}
+	}
+	@else if $range == md {
+		@media screen and (min-width: $md--min) and (max-width: $md--max) { 
+			@content; 
+		}
+	}
+	@else if $range == lg {
+		@media screen and (min-width: $lg--min) { 
+			@content; 
+		}
+  	}
+}
+
+
+
+
+// |=====================================
+// | 3. Helper Mixins       
+// |=====================================
+// |
+// | [1] - Gutter compensation allows the `.grid__row` element to align properly inside its parent `.grid`
+// |	   container while allowing it's children columns to contain gutters (padding) and still align to the `.grid`.
+// | [2] - Make an element a flex container
+// | [3] - Make an element a column 
+
+// [1]
+@mixin gutter-compensation {
+	margin-right: $grid-gutter * -1;
+	margin-left: $grid-gutter * -1;
+}
+ 
+// [2]
+@mixin flex-container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+// [3]
+@mixin flex-column {
+	display: block;
+	padding-left: $grid-gutter;
+	padding-right: $grid-gutter;
+	position: relative;
+	min-height: 1px;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+

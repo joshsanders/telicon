@@ -1,0 +1,98 @@
+/*------------------------------------*\
+  #COMPONENTS/COLUMNS/LG
+\*------------------------------------*/
+
+
+@include grid(lg) {
+
+	.lg\:col--1,
+	.lg\:col--1_12 {
+		@include flex-column;
+		max-width: 8.33333333333333%;
+		flex-basis: 8.33333333333333%;
+	}
+
+	.lg\:col--2,
+	.lg\:col--2_12 {
+		@include flex-column;
+		max-width: 16.66666666666666%;
+		flex-basis: 16.66666666666666%;
+	}
+
+	.lg\:col--3,
+	.lg\:col--3_12 {
+		@include flex-column;
+		max-width: 25%;
+		flex-basis: 25%;
+	}
+
+	.lg\:col--4,
+	.lg\:col--4_12 {
+		@include flex-column;
+		max-width: 33.33333333333333%;
+		flex-basis: 33.33333333333333%;
+	}
+
+	.lg\:col--5,
+	.lg\:col--5_12 {
+		@include flex-column;
+		max-width: 41.66666666666666%;
+		flex-basis: 41.66666666666666%;
+	}
+
+	.lg\:col--6,
+	.lg\:col--6_12 {
+		@include flex-column;
+		max-width: 50%;
+		flex-basis: 50%;
+	}
+
+	.lg\:col--7,
+	.lg\:col--7_12 {
+		@include flex-column;
+		max-width: 58.33333333333333%;
+		flex-basis: 58.33333333333333%;
+	}
+
+	.lg\:col--8,
+	.lg\:col--8_12 {
+		@include flex-column;
+		max-width: 66.66666666666666%;
+		flex-basis: 66.66666666666666%;
+	}
+
+	.lg\:col--9,
+	.lg\:col--9_12 {
+		@include flex-column;
+		max-width: 75%;
+		flex-basis: 75%;
+	}
+
+	.lg\:col--10,
+	.lg\:col--10_12 {
+		@include flex-column;
+		max-width: 83.33333333333333%;
+		flex-basis: 83.33333333333333%;
+	}
+
+	.lg\:col--11,
+	.lg\:col--11_12 {
+		@include flex-column;
+		max-width: 91.66666666666666%;
+		flex-basis: 91.66666666666666%;
+	}
+
+	.lg\:col--full,
+	.lg\:col--12,
+	.lg\:col--12_12 {
+		@include flex-column;
+		max-width: 100%;
+		flex-basis: 100%;
+	}
+	
+	// .lg-is-hidden,
+	.lg\:is-hidden {
+		display: none;
+	}
+	
+}

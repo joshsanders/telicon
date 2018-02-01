@@ -1,0 +1,74 @@
+/*------------------------------------*\
+  #COMPONENTS/OFFSETS/LG
+\*------------------------------------*/
+
+
+@include grid(lg) {
+
+	.lg\:offset--1,
+	.lg\:offset--1_12 {
+		@include flex-column;
+		margin-left: 8.33333333333333%;
+	}
+
+	.lg\:offset--2,
+	.lg\:offset--2_12 {
+		@include flex-column;
+		margin-left: 16.66666666666666%;
+	}
+
+	.lg\:offset--3,
+	.lg\:offset--3_12 {
+		@include flex-column;
+		margin-left: 25%;
+	}
+
+	.lg\:offset--4,
+	.lg\:offset--4_12 {
+		@include flex-column;
+		margin-left: 33.33333333333333%;
+	}
+
+	.lg\:offset--5,
+	.lg\:offset--5_12 {
+		@include flex-column;
+		margin-left: 41.66666666666666%;
+	}
+
+	.lg\:offset--6,
+	.lg\:offset--6_12 {
+		@include flex-column;
+		margin-left: 50%;
+	}
+
+	.lg\:offset--7,
+	.lg\:offset--7_12 {
+		@include flex-column;
+		margin-left: 58.33333333333333%;
+	}
+
+	.lg\:offset--8,
+	.lg\:offset--8_12 {
+		@include flex-column;
+		margin-left: 66.66666666666666%;
+	}
+
+	.lg\:offset--9,
+	.lg\:offset--9_12 {
+		@include flex-column;
+		margin-left: 75%;
+	}
+
+	.lg\:offset--10,
+	.lg\:offset--10_12 {
+		@include flex-column;
+		margin-left: 83.33333333333333%;
+	}
+
+	.lg\:offset--11,
+	.lg\:offset--11_12 {
+		@include flex-column;
+		margin-left: 91.66666666666666%;
+	}
+	
+}

@@ -1,0 +1,50 @@
+/*------------------------------------*\
+  #COMPONENTS/OFFSETS/MD
+\*------------------------------------*/
+
+
+@include grid(md) {
+
+	.md\:offset--1,
+	.md\:offset--1_8 {
+		@include flex-column;
+		margin-left: 12.5%;
+	}
+
+	.md\:offset--2,
+	.md\:offset--2_8 {
+		@include flex-column;
+		margin-left: 25%;
+	}
+
+	.md\:offset--3,
+	.md\:offset--3_8 {
+		@include flex-column;
+		margin-left: 37.5%;
+	}
+
+	.md\:offset--4,
+	.md\:offset--4_8 {
+		@include flex-column;
+		margin-left: 50%;
+	}
+
+	.md\:offset--5,
+	.md\:offset--5_8 {
+		@include flex-column;
+		margin-left: 62.5%;
+	}
+
+	.md\:offset--6,
+	.md\:offset--6_8 {
+		@include flex-column;
+		margin-left: 75%;
+	}
+
+	.md\:offset--7,
+	.md\:offset--7_8 {  
+		@include flex-column;
+		margin-left: 87.5%;
+	}
+	
+}

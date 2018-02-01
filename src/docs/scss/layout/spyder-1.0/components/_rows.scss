@@ -1,0 +1,69 @@
+/*------------------------------------*\
+  #COMPONENTS/ROWS
+\*------------------------------------*/
+
+
+// @include grid(sm) {
+
+// 	.grid__row {
+// 		&.sm\:row-reverse {
+// 			flex-direction: row-reverse;
+// 			flex-wrap: wrap;
+// 		}
+// 	}
+	
+// }
+
+// @include grid(md) {
+
+// 	.grid__row {
+// 		&.md\:row-reverse {
+// 			flex-direction: row-reverse;
+// 			flex-wrap: wrap;
+// 		}
+// 	}
+
+// }
+
+// @include grid(lg) {
+
+// 	.grid__row {
+// 		&.lg\:row-reverse {
+// 			flex-direction: row-reverse;
+// 			flex-wrap: wrap;
+// 		}
+// 	}
+
+// }
+
+
+
+.grid__row {
+
+	@include grid(sm) {
+		&.sm\:row-reverse {
+			// flex-direction: row-reverse;
+			flex-direction: column-reverse;
+			flex-wrap: wrap;
+		}
+	}
+
+	@include grid(md) {
+		flex-direction: row;
+		flex-wrap: wrap;
+
+		&.md\:row-reverse {
+			flex-direction: row-reverse;
+		}
+	}
+
+	@include grid(lg) {
+		flex-direction: row;
+		flex-wrap: wrap;
+
+		&.lg\:row-reverse {
+			flex-direction: row-reverse;
+		}
+	}
+
+}

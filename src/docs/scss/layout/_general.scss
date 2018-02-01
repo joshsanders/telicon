@@ -36,6 +36,7 @@ section.icons {
     .grid__row {
       margin-bottom: 0;
     }
+
   }
 
   .grid__row {
@@ -49,20 +50,6 @@ section.icons {
     margin: 0;
   }
 
-  // .input-group {
-
-  //   i {
-  //     display: none;
-  //     position: absolute;
-  //     right: 20px;
-  //     top: 8px;
-  //     color: #a4a4a4;
-  //     cursor: pointer;
-  //   }
-
-  // }
-
-
   .input--search {
     // display: inline-block;
     line-height: 2rem;
@@ -75,7 +62,7 @@ section.icons {
     letter-spacing: -.02em;
     // float: right;
 
-    @include media-range(sm) {
+    @include grid(sm) {
       float: none;
       width: 100%;
     }
@@ -108,10 +95,12 @@ section.icons {
       &:-ms-input-placeholder { /* IE 10+ */
         opacity: .5;
       }
-    }
-  }
-}
 
+    }
+
+  }
+
+}
 
 .icons-list {
 
@@ -134,14 +123,14 @@ section.icons {
   text-overflow: ellipsis;
   transition: background .2s ease;
 
-  @include media-range(sm) {
+  @include grid(sm) {
       margin-bottom: 0;
   }
 
   &:hover,
   &:focus,
   &:active {
-    background: $color--primary;
+    background: $color--primary-2;
     color: #ffffff;
   }
 
@@ -151,13 +140,3 @@ section.icons {
     margin-top: -4px;
   }
 }
-
-// @media screen and (max-width: 48rem) {
-//   .input--search {
-//     float: none;
-//     width: 100%;
-//   }
-//   .icon-container {
-//     margin-bottom: 0;
-//   }
-// }

@@ -1,0 +1,16 @@
+/*------------------------------------*\
+  #COMPONENTS/COLUMNS/SM
+\*------------------------------------*/
+
+
+@include grid(sm) {
+
+	.grid__col {
+		max-width: 100%;
+		flex-basis: 100%;
+	}
+
+ 	.sm\:is-hidden {
+		display: none;
+	}
+}

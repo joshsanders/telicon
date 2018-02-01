@@ -1,0 +1,84 @@
+/*------------------------------------*\
+  #COMPONENTS/ALIGNMENT
+\*------------------------------------*/
+
+
+.grid__row {
+
+	@include grid(sm) {
+		&.sm\:row-align--top {
+			align-items: flex-start;
+		}
+
+		&.sm\:row-align--center {
+			align-items: center;
+		}
+
+		&.sm\:row-align--bottom {
+			align-items: flex-end;
+		}
+	}
+
+	@include grid(md) {
+		&.md\:row-align--top {
+			align-items: flex-start;
+		}
+
+		&.md\:row-align--center {
+			align-items: center;
+		}
+
+		&.md\:row-align--bottom {
+			align-items: flex-end;
+		}
+	}
+
+	@include grid(lg) {
+		&.lg\:row-align--top {
+			align-items: flex-start;
+		}
+
+		&.lg\:row-align--center {
+			align-items: center;
+		}
+
+		&.lg\:row-align--bottom {
+			align-items: flex-end;
+		}
+	}
+
+}
+
+
+.grid__col {
+
+	@include grid(md) {
+		&.md\:col-align--top {
+			align-self: flex-start;
+		}
+
+		&.md\:col-align--center {
+			align-self: center;
+		}
+
+		&.md\:col-align--bottom {
+			align-self: flex-end;
+		}
+	}
+
+	@include grid(lg) {
+		&.lg\:col-align--top {
+			align-self: flex-start;
+		}
+
+		&.lg\:col-align--center {
+			align-self: center;
+		}
+
+		&.lg\:col-align--bottom {
+			align-self: flex-end;
+		}
+	}
+			
+}
+

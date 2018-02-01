@@ -1,0 +1,40 @@
+/*------------------------------------*\
+  #COMPONENTS/GRID
+\*------------------------------------*/
+
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.grid {
+	width: $grid-width;
+	max-width: $grid-max-width;
+	margin: 0px auto;
+	position: relative;
+	padding-right: $grid-gutter;
+	padding-left: $grid-gutter;
+
+	@include grid(lg) {
+		width: calc( #{$grid-width} - ( #{$grid-gutter} * 2) );
+	}
+
+}
+
+.grid__row { 
+	@include gutter-compensation;
+	@include flex-container;
+
+	// flex-direction: row;
+	flex-direction: column;
+	flex-wrap: wrap;
+	
+}
+
+.grid__col {
+	@include flex-column;
+}

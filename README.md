@@ -5,7 +5,7 @@
 A telecom-centric, SVG-based icon font designed for Monster UI&mdash;an interface layer for the Unified Communications platform [KAZOO](https://github.com/2600hz/kazoo).
 
 ## Project Progress
-Keep track of Telicon's progress through the project's [CHANGELOG.md](https://github.com/joshsanders/telicon/CHANGELOG.md) file.
+Keep track of Telicon's progress through the project's [CHANGELOG.md](https://github.com/joshsanders/telicon/blob/master/CHANGELOG.md) file.
 
 ## Icon Workflow
 Icons will be updated/added as they are needed. New and updated icons should be referenced in the [CHANGELOG.md](https://github.com/joshsanders/telicon/blob/master/CHANGELOG.md) file as a `minor` version update.
@@ -16,10 +16,10 @@ Icons will be updated/added as they are needed. New and updated icons should be 
 The following tools are currently used to design and produce icons:
 
 * Adobe Illustrator (any svg editor will do)
-* SVGO for optimization
-* IcoMoon
+* SVGO (for optimization)
+* IcoMoon (for translation of font files to Unicode Private Use Area)
 
-### SVG Sprite
+#### SVG Sprite
 A buildout of a svg sprite implementation is currently in the development process, and can be tracked under the via this project's [CHANGELOG.md](https://github.com/joshsanders/telicon/blob/master/CHANGELOG.md) file.
 
 ## Versioning
