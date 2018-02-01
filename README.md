@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://cdn.rawgit.com/joshsanders/telicon/b0880dd9/docs/logo.svg" alt="Telicon" width="40%"></h1>
+<h1 align="center"><img src="https://cdn.rawgit.com/joshsanders/telicon/13de470a/docs/logo.svg" alt="Telicon" width="40%"></h1>
 
 <!-- ![Telicon Logo ](https://cdn.rawgit.com/joshsanders/telicon/49201d3c/docs/logo.svg) -->
 
