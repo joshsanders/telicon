@@ -4,8 +4,23 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
-### Added
+### In Development
 - SVG sprite currently in buildout phase
+
+- New icons
+  * `ear` (eavesdrop)
+  * `bell`
+  * `bell-slash`
+  * `lightning-bolt`
+  * `power`
+  * `cancel`
+  * `user-settings`
+  * `refresh/reload`  
+  * `plus`
+  * `minus`
+  * `location-pin`  
+  * `location-scope`
+  * `ellipses`         
 
 ### Changed
 

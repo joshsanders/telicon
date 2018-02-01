@@ -1,4 +1,5 @@
-<h1 align="center"><img src="https://cdn.rawgit.com/joshsanders/telicon/49201d3c/docs/logo.svg" alt="Telicon" width="40%"></h1>
+<h1 align="center"><img src="https://cdn.rawgit.com/joshsanders/telicon/b0880dd9/docs/logo.svg" alt="Telicon" width="40%"></h1>
+
 <!-- ![Telicon Logo ](https://cdn.rawgit.com/joshsanders/telicon/49201d3c/docs/logo.svg) -->
 
 A telecom-centric, SVG-based icon font designed for Monster UI&mdash;an interface layer for the Unified Communications platform [KAZOO](https://github.com/2600hz/kazoo).
@@ -29,8 +30,8 @@ Telicon will be maintained under the [Semantic Versioning guidelines](http://sem
 And constructed with the following guidelines:
 
 * Breaking backward compatibility bumps the major (and resets the minor and patch)
-* New additions, including new icons, without breaking backward compatibility bumps the minor (and resets the patch)
-* Bug fixes, changes to brand logos, and misc changes bumps the patch
+* Changes or updates(like new icons) without breaking backward compatibility bumps the minor (and resets the patch)
+* Bug fixes, changes to individual icons, and misc changes bumps the patch
 
 ## Copyright and License
 The icons, code, and assets included in project are licensed under the The MIT License (MIT) - see [this project's license file](https://github.com/joshsanders/telicon/blob/master/LICENSE.md) for details.

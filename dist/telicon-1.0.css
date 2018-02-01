@@ -8,9 +8,7 @@
  *
  *  Full project can be viewed on github (https://github.com/joshsanders/telicon)
  *
- *  Last Updated: 7.17
- *  ------------------ 
- *  see CHANGELOG.md for updates (https://github.com/joshsanders/telicon/blob/master/CHANGELOG.md)
+ *  See CHANGELOG.md for updates (https://github.com/joshsanders/telicon/blob/master/CHANGELOG.md)
  *  
  *  License
  *  -------
@@ -47,7 +45,7 @@
  *  [2] Additional classes may be mapped to certain icons. These are classes from 0.2.0 that have been
  *  aliased to a newer icon due to the older version from 0.2.0 being removed and/or changed and renamed
  *
- *  [3] Use !important to prevent issues with browswer extensions that change fonts
+ *  [3] Use !important to prevent issues with browser extensions that change fonts
  *
  *  [4] Controls icon display and alignment
  *

@@ -1,0 +1,35 @@
+{
+  "name": "telicon",
+  "version": "1.0.0",
+  "description": "A telecom-centric, SVG-based icon font",
+  "main": "docs/index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshsanders/Telicon.git"
+  },
+  "keywords": [
+    "svg"
+  ],
+  "author": "Josh Sanders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshsanders/Telicon/issues"
+  },
+  "homepage": "https://github.com/joshsanders/Telicon#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0"
+  }
+}

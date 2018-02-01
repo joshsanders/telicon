@@ -5,7 +5,7 @@
 // has spyder/mixins and spyder/variables dependencies
  
 html {
-  background: #be1e2d;
+  background: $color--primary;
 }
 
 body {
@@ -71,7 +71,7 @@ section.icons {
     font-size: 1rem;
     border: 1px solid #c4c4c4;
     padding-left: 8px;
-    color: #be1e2d;
+    color: $color--primary;
     letter-spacing: -.02em;
     // float: right;
 
@@ -94,8 +94,8 @@ section.icons {
 
     &:focus {
       outline: none;
-      border: 1px solid #be1e2d;
-      color: #be1e2d;
+      border: 1px solid $color--primary;
+      color: $color--primary;
 
       &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
         opacity: .5;
@@ -141,7 +141,7 @@ section.icons {
   &:hover,
   &:focus,
   &:active {
-    background: #be1e2d;
+    background: $color--primary;
     color: #ffffff;
   }
 
