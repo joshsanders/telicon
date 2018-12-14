@@ -2,29 +2,88 @@
 All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
-
 ### In Development
 - SVG sprite currently in buildout phase
 
 - New icons
   * `ear` (eavesdrop)
+  * `lightning-bolt`
+  * `cancel`
+  * `metrics (CC Pro)`
+  * `agent (CC Pro)`
+  * `location-scope`
+  * `ellipses` 
+  * `bookmark`
+  * `thumbs-up`
+  * `thumbs-down`
+  * `star`
+  * `skip ???`
+  * `extend`
+  * `music-note`
+  * `search`
+  
+---
+
+## [1.1.0] - `2018-12-11`
+
+### Added
+- {{n}} new icons added `icons/svg/...`
+  * `avatar--badge`
+  * `avatar--circle`
+  * `download-cloud`
+  * `edit`
+  * `file`
+  * `location-pin`
+  * `minus` 
+  * `plus`
+  * `refresh`
+  * `stop--circle`
+  * `storage-server-stack`
+  * `trash`
+  * `upload-cloud`
+  * `pie-chart--25`
+  * `pie-chart--50`
+  * `pie-chart--75`
+  * `user-admin-plus`
+  * `user-admin-group`
+  * `x`
+  * `chevron-double-up`
+  * `chevron-double-right`
+  * `chevron-double-down`
+  * `chevron-double-left`
+  * `caret-up`
+  * `caret-right`
+  * `caret-down`
+  * `caret-left`
+  * `power`
+  * `lock`
+  * `lock-open`
   * `bell`
   * `bell-slash`
-  * `lightning-bolt`
-  * `power`
-  * `cancel`
-  * `user-settings`
-  * `refresh/reload`  
-  * `plus`
-  * `minus`
-  * `location-pin`  
-  * `location-scope`
-  * `ellipses`         
 
 ### Changed
+- Standardized entire library from a base 18px grid to 16px grid for a more standardized size, made more consistent weight throughout icons
 
-### Fixed
+- Renamed:
+  * `ip` icon to `ip-address`
+  * `caret-{*}` icons to `chevron-{*}` so that `caret` namespace can be used for more appropriate arrow icons
+  * `pie-chart--full` icon to `pie-chart--100`
+  * `service-providers` icon to `service-provider`
+  * `account-jump` icon to `account-tree`
+  * `mic-muted` icon to `mic-slash`
+  * `headphones-deafen` icon to `headphones-slash`
+
+
+### Removed
+- Icons removed
+  * `billing-history`
+  * `billing-last`
+  * `billing-transactions`
+  * `credit-1x-charge`
+  * `credit-prorated-charge` 
+  * `dashboard-needle`
+  * `pie-chart--partial`
+  * `account`
 
 ---
 

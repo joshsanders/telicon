@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="18px" height="18px" viewBox="-56.5 34.5 18 18" style="enable-background:new -56.5 34.5 18 18;" xml:space="preserve">
-<path d="M-40.5,35.5v2h-4v-2h-6v2h-4v-2h-2v17h18v-17H-40.5z M-39.5,50.5h-16v-10h16V50.5z"/>
-<rect x="-53.5" y="34.5" width="2" height="2"/>
-<rect x="-43.5" y="34.5" width="2" height="2"/>
-<polygon points="-44,46.5 -46.5,46.5 -46.5,49 -48.5,49 -48.5,46.5 -51,46.5 -51,44.5 -48.5,44.5 -48.5,42 -46.5,42 -46.5,44.5 
-	-44,44.5 "/>
+	 viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<path d="M16,1v2h-4V1H6v2H2V1H0v17h18V1H16z M17,16H1V6h16V16z"/>
+<path d="M3,0h2v2H3V0z M13,0h2v2h-2V0z M12.5,12H10v2.5H8V12H5.5v-2H8V7.5h2V10h2.5V12z"/>
 </svg>

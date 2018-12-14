@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#C8E9F0;}
+	.st3{opacity:0.5;fill:#CFA7CE;enable-background:new    ;}
+	.st4{opacity:0.5;fill:#D0A86F;enable-background:new    ;}
+</style>
+<g id="grid_2_" class="st0">
+	<g id="grid_1_" class="st1">
+		<g id="grid">
+			<g>
+				<rect x="2" class="st2" width="12" height="16"/>
+				<rect y="2" class="st2" width="16" height="12"/>
+				<rect x="1" y="1" class="st3" width="14" height="14"/>
+				<circle class="st4" cx="8" cy="8" r="8"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<polygon points="12.2,8.2 9.4,5.4 8,4 6.6,5.4 6.6,5.4 3.8,8.2 5.2,9.7 7,7.8 7,13 9,13 9,7.8 10.8,9.7 	"/>
+	<path d="M8,16c4.4,0,8-3.6,8-8s-3.6-8-8-8S0,3.6,0,8S3.6,16,8,16z M8,2c3.3,0,6,2.7,6,6s-2.7,6-6,6s-6-2.7-6-6S4.7,2,8,2z"/>
+</g>
+</svg>

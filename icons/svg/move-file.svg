@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="18px" height="18px" viewBox="-56.5 34.5 18 18" style="enable-background:new -56.5 34.5 18 18;" xml:space="preserve">
-<style type="text/css">
-<![CDATA[
-	.st0{display:none;}
-]]>
-</style>
-<g id="Creative_Commons_License" class="st0">
-	
-		<text id="Creative_Commons_License_1_" transform="matrix(1 0 0 1 -2206.5 1465.5439)" style="display:inline; font-family:'MyriadPro-Regular'; font-size:12;">With assets by Icomoon / CC BY</text>
-</g>
-<g>
-	<polygon points="-56.5,52.5 -42,52.5 -39.5,44.5 -53.5,44.5 	"/>
-	<polygon points="-50.5,42.5 -51.5,40.5 -56.5,40.5 -56.5,52.5 -54.3,42.5 	"/>
-	<path d="M-46.4,42.5c0-0.2-0.1-0.3-0.1-0.5c0-1.4,1.1-2.5,2.5-2.5h0.5h1.2l-1.6,1.6l1.4,1.4l4-4l-4-4l-1.4,1.4l1.6,1.6h-1.2H-44
-		c-2.5,0-4.5,2-4.5,4.5c0,0.2,0,0.3,0.1,0.5H-46.4z"/>
-</g>
+	 viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<path d="M0,18h14.5l2.5-8H3L0,18z"/>
+<path d="M6,8L5,6H0v12L2.2,8H6z M10.1,8c0-0.2-0.1-0.3-0.1-0.5C10,6.1,11.1,5,12.5,5h1.7l-1.6,1.6L14,8l4-4l-4-4l-1.4,1.4L14.2,3
+	h-1.7C10,3,8,5,8,7.5C8,7.7,8,7.8,8.1,8H10.1z"/>
 </svg>
