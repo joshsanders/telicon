@@ -21,7 +21,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
   * `headphones-deafen` icon to `headphones-slash`
 
 ### Added
-- 47 new icons added `icons/svg/...`
+- 47 new icons added: `src/icons/svg/...`
   * `avatar--badge`
   * `avatar--circle`
   * `bar-graph`

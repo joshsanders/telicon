@@ -4,6 +4,9 @@
 
 A telecom-centric, SVG-based icon font designed for Monster UI&mdash;an interface layer for the Unified Communications platform [KAZOO](https://github.com/2600hz/kazoo).
 
+## Getting Started
+Lorem Ipsum...
+
 ## Project Progress
 Keep track of Telicon's progress through the project's [CHANGELOG.md](https://github.com/joshsanders/telicon/blob/master/CHANGELOG.md) file.
 
