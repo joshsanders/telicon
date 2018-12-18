@@ -150,34 +150,33 @@ button.toast-close-button {
 //   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVEhL5ZSvTsNQFMbXZGICMYGYmJhAQIJAICYQPAACiSDB8AiICQQJT4CqQEwgJvYASAQCiZiYmJhAIBATCARJy+9rTsldd8sKu1M0+dLb057v6/lbq/2rK0mS/TRNj9cWNAKPYIJII7gIxCcQ51cvqID+GIEX8ASG4B1bK5gIZFeQfoJdEXOfgX4QAQg7kH2A65yQ87lyxb27sggkAzAuFhbbg1K2kgCkB1bVwyIR9m2L7PRPIhDUIXgGtyKw575yz3lTNs6X4JXnjV+LKM/m3MydnTbtOKIjtz6VhCBq4vSm3ncdrD2lk0VgUXSVKjVDJXJzijW1RQdsU7F77He8u68koNZTz8Oz5yGa6J3H3lZ0xYgXBK2QymlWWA+RWnYhskLBv2vmE+hBMCtbA7KX5drWyRT/2JsqZ2IvfB9Y4bWDNMFbJRFmC9E74SoS0CqulwjkC0+5bpcV1CZ8NMej4pjy0U+doDQsGyo1hzVJttIjhQ7GnBtRFN1UarUlH8F3xict+HY07rEzoUGPlWcjRFRr4/gChZgc3ZL2d8oAAAAASUVORK5CYII=") !important;
 // }
 
-// overrides toastr default 'background-image' to use telicon icons in toast alerts 
+/*------------------------------------*\
+  overrides toastr default 'background-image' and instead uses telicon icons in toast alerts 
+\*------------------------------------*/
+
 #toast-container .toast > .toast-message:before {
-  font-family: 'telicon' !important;
   speak: none;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
   text-transform: none;
   line-height: inherit;
-  display: inline-block;
+  display: inline;
   vertical-align: middle;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   margin-right: .75rem;
+  width: 16px;
+  height: 16px;
 }
 #toast-container .toast-info > .toast-message:before {
-  content: "\e939";
+  content: url("data:image/svg+xml; utf8, <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white'><path d='M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zM7 3h2v2H7V3zm3 9.5H6v-2h1V8H6V6h3v4.5h1v2z'/></svg>");
 }
 #toast-container .toast-success > .toast-message:before {
-  content: "\e91c";
+  content: url("data:image/svg+xml; utf8, <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white'><path d='M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm.4 10.7L7 12.1l-1.4-1.4-2.2-2.1 1.4-1.4 2.1 2.1L11.2 5l1.4 1.4-4.2 4.3z'/></svg>");
 }
 #toast-container .toast-warning > .toast-message:before {
-  content: "\e969";
+  content: url("data:image/svg+xml; utf8, <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white'><path d='M15.8 14.2L8.9.7C8.6.2 8.3 0 8 0s-.6.2-.9.7L.2 14.2c-.5 1 0 1.8 1.1 1.8h13.4c1.1 0 1.6-.8 1.1-1.8zM9 13H7v-2h2v2zm0-3H7V5h2v5z'/></svg>");
 }
 #toast-container .toast-error > .toast-message:before {
-  content: "\e96b";
+  content: url("data:image/svg+xml; utf8, <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white'><path d='M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm3.5 10.1l-1.4 1.4L8 9.4l-2.1 2.1-1.4-1.4L6.6 8 4.5 5.9l1.4-1.4L8 6.6l2.1-2.1 1.4 1.4L9.4 8l2.1 2.1z'/></svg>");
 }
+/*------------------------------------*/
 
 
 #toast-container.toast-top-center > div,

@@ -8,19 +8,14 @@ A telecom-centric, SVG-based icon font designed for Monster UI&mdash;an interfac
 Keep track of Telicon's progress through the project's [CHANGELOG.md](https://github.com/joshsanders/telicon/blob/master/CHANGELOG.md) file.
 
 ## Icon Workflow
-Icons will be updated/added as they are needed. New and updated icons should be referenced in the [CHANGELOG.md](https://github.com/joshsanders/telicon/blob/master/CHANGELOG.md) file as a `minor` version update.
+Icons will be updated/added as needed. All new and updated icons should be referenced in the [CHANGELOG.md](https://github.com/joshsanders/telicon/blob/master/CHANGELOG.md) file as a `minor` version update.
 
-* Icons will be kept within the [`icons/svg/...`](https://github.com/joshsanders/telicon/tree/master/icons/svg) directory in the repo.
-* Each icon will have a production-ready version (`[icon-name].svg`) available in the repo.
+* Source svg files for each icon can be found within the [`src/icons/svg/...`](https://github.com/joshsanders/telicon/tree/master/src/icons/svg) directory.
 
-The following tools are currently used to design and produce icons:
+The following tools are currently used to design and produce icons and assets:
 
-* Adobe Illustrator (any svg editor will do)
-* SVGO (for optimization)
-* IcoMoon (for translation of font files to Unicode Private Use Area)
-
-#### SVG Sprite
-A buildout of a svg sprite implementation is currently in the development process, and can be tracked under the via this project's [CHANGELOG.md](https://github.com/joshsanders/telicon/blob/master/CHANGELOG.md) file.
+* Adobe Illustrator (any vector editor will do) to create the source icons
+* Spritebot for svg optimization and sprite creation (still requires some manual cleanup...looking into more customizable options via SVGO and svgstore gulp workflows)
 
 ## Versioning
 Telicon will be maintained under the [Semantic Versioning guidelines](http://semver.org) as much as possible. Releases will be numbered with the following format:
@@ -37,5 +32,7 @@ And constructed with the following guidelines:
 The icons, code, and assets included in project are licensed under the The MIT License (MIT) - see [this project's license file](https://github.com/joshsanders/telicon/blob/master/LICENSE.md) for details.
 
 ## Colophon
-Designed and maintained by: Josh Sanders | Design Director, 2600Hz
-joshsandersdesign@gmail.com
+Designed and maintained by: 
+Josh Sanders | Lead Product Designer, 2600Hz
+hello@joshsanders.design
+www.joshsanders.design

@@ -2,66 +2,13 @@
 All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-### In Development
-- SVG sprite currently in buildout phase
-
-- New icons
-  * `ear` (eavesdrop)
-  * `lightning-bolt`
-  * `cancel`
-  * `metrics (CC Pro)`
-  * `agent (CC Pro)`
-  * `location-scope`
-  * `ellipses` 
-  * `bookmark`
-  * `thumbs-up`
-  * `thumbs-down`
-  * `star`
-  * `skip ???`
-  * `extend`
-  * `music-note`
-  * `search`
-  
 ---
 
-## [1.1.0] - `2018-12-11`
-
-### Added
-- {{n}} new icons added `icons/svg/...`
-  * `avatar--badge`
-  * `avatar--circle`
-  * `download-cloud`
-  * `edit`
-  * `file`
-  * `location-pin`
-  * `minus` 
-  * `plus`
-  * `refresh`
-  * `stop--circle`
-  * `storage-server-stack`
-  * `trash`
-  * `upload-cloud`
-  * `pie-chart--25`
-  * `pie-chart--50`
-  * `pie-chart--75`
-  * `user-admin-plus`
-  * `user-admin-group`
-  * `x`
-  * `chevron-double-up`
-  * `chevron-double-right`
-  * `chevron-double-down`
-  * `chevron-double-left`
-  * `caret-up`
-  * `caret-right`
-  * `caret-down`
-  * `caret-left`
-  * `power`
-  * `lock`
-  * `lock-open`
-  * `bell`
-  * `bell-slash`
+## [2.0.0] - `2018-12-11`
 
 ### Changed
+- Entire project upgraded from an icon-font implementation to a svg sprite. This is a serious overhaul and drastically changes how icons are implemented and manipulated. For more info on how to use the svg sprite verison of Telicon, see the [README.md](https://github.com/joshsanders/telicon/blob/master/README.md) file.
+
 - Standardized entire library from a base 18px grid to 16px grid for a more standardized size, made more consistent weight throughout icons
 
 - Renamed:
@@ -73,6 +20,55 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
   * `mic-muted` icon to `mic-slash`
   * `headphones-deafen` icon to `headphones-slash`
 
+### Added
+- 47 new icons added `icons/svg/...`
+  * `avatar--badge`
+  * `avatar--circle`
+  * `bar-graph`
+  * `bar-graph--square`
+  * `bell`
+  * `bell-slash`
+  * `bookmark`
+  * `caret-up`
+  * `caret-right`
+  * `caret-down`
+  * `caret-left`
+  * `chevron-double-up`
+  * `chevron-double-right`
+  * `chevron-double-down`
+  * `chevron-double-left`
+  * `download-cloud`
+  * `ear`
+  * `edit`
+  * `ellipses` 
+  * `file`
+  * `lightning-bolt`
+  * `location-pin`
+  * `location-scope`
+  * `lock`
+  * `lock-open`
+  * `minus` 
+  * `music-note`
+  * `operator`
+  * `pie-chart--25`
+  * `pie-chart--50`
+  * `pie-chart--75`
+  * `plus`
+  * `power`
+  * `refresh-alt`
+  * `refresh`
+  * `search`
+  * `star`
+  * `stop--circle`
+  * `storage-server-stack`
+  * `thumbs-up`
+  * `thumbs-down`
+  * `trash`
+  * `trash-x`
+  * `upload-cloud`
+  * `user-admin-plus`
+  * `user-admin-group`
+  * `x`
 
 ### Removed
 - Icons removed
@@ -84,6 +80,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
   * `dashboard-needle`
   * `pie-chart--partial`
   * `account`
+
+### Deprecated
+- The icon-font implementation of Telicon is now considered deprecated and will no longer be maintained as of this version release (2.0.0). 
 
 ---
 

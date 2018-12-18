@@ -63,8 +63,9 @@ section.icons {
     // float: right;
 
     @include grid(sm) {
-      float: none;
-      width: 100%;
+      // float: none;
+      margin-top: 1rem;
+      // width: 100%;
     }
 
     &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -104,9 +105,9 @@ section.icons {
 
 .icons-list {
 
-  &.js-fixed--mt-adjust {
-    margin-top: 5rem;
-  }
+  // &.js-fixed--mt-adjust {
+  //   margin-top: 5rem;
+  // }
 
 }
 
@@ -123,9 +124,9 @@ section.icons {
   text-overflow: ellipsis;
   transition: background .2s ease;
 
-  @include grid(sm) {
-      margin-bottom: 0;
-  }
+  // @include grid(sm) {
+  //     margin-bottom: 0;
+  // }
 
   &:hover,
   &:focus,
@@ -134,9 +135,20 @@ section.icons {
     color: #ffffff;
   }
 
-  i {
-    // override the default alignment in src telicon.css
-    margin-right: 12px;
-    margin-top: -4px;
-  }
+  // i {
+  //   // override the default alignment in src telicon.css
+  //   margin-right: 12px;
+  //   margin-top: -4px;
+  // }
+
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  // fill: #64646c;
+  fill: currentColor;
+  line-height: 1em;
+  vertical-align: middle;
+  margin-right: 0.75rem;
 }
