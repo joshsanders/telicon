@@ -98,6 +98,12 @@ gulp.task('docs-scripts', function(){
 });
 
 
+// Explore gulp workflows for svg optimization and sprite creation
+// ---
+// svg tasks will go here when implemented
+
+
+
 // Watch task
 // ---
 // watches directory for changes, and applies the Styles and Scripts tasks stated above

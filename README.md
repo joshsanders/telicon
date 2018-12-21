@@ -1,7 +1,4 @@
-<h1 align="center"><img src="https://raw.githubusercontent.com/joshsanders/telicon/master/docs/logo.svg" alt="Telicon logo" width="40%"></h1>
-
-
-<!-- ![Telicon Logo ](https://cdn.rawgit.com/joshsanders/telicon/49201d3c/docs/logo.svg) -->
+<h1 align="center"><img src="docs/logo.svg" alt="Telicon logo" width="40%"></h1>
 
 An SVG icon system for Monster UI&reg;&mdash;an interface layer for the Unified Communications platform KAZOO&reg;. [KAZOO](https://github.com/2600hz/kazoo).
 
