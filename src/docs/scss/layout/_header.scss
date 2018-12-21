@@ -3,31 +3,47 @@
 \*------------------------------------*/
 
 .header {
-	border-top: 3px solid $color--primary; 
-	padding: 1rem 0 3rem;
+	border-top: 3px solid #8f35f1;
+    padding: 2rem 0 3rem;
 
-	.grid__row {
-		margin-bottom: 0;
+	// .grid__row {
+	// 	margin-bottom: 0;
+	// }
+
+	a {
+		display: inline-block;
 	}
 
-	.logo {
-		margin: 0;
-		line-height: 1;
+}
 
-		svg {
-			display: inline-block;
-			vertical-align: middle;
-		}
+.header__logo {
+	margin: 0;
+	line-height: 1;
 
-		.version-tag {
-			color: #949494;
-			font-size: 1rem;
-			font-weight: 600;
-			display: inline-block;
-			vertical-align: middle;
-			margin-top: 22px;
-			margin-left: -4px;
-			// letter-spacing: .04em;
-		}
+	svg {
+		display: inline-block;
+		vertical-align: middle;
 	}
+
+	// .version-tag {
+	// 	color: #949494;
+	// 	font-size: 1rem;
+	// 	font-weight: 600;
+	// 	display: inline-block;
+	// 	vertical-align: middle;
+	// 	margin-top: 22px;
+	// 	margin-left: -4px;
+	// 	// letter-spacing: .04em;
+	// }
+}
+
+.header__intro {
+	margin-top:	6rem;
+	line-height: 1.4;
+
+}
+
+.header__btn {
+	display: inline-block;
+	margin-right: 1rem;
 }

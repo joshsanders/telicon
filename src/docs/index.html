@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Telicon Reference Sheet</title>
+		<title>Telicon</title>
 		<!-- favicons -->
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -15,87 +15,209 @@
 	</head>
 
 	<body>
-		<header class="header">
+		<header class="hero">
+			<a href="https://github.com/joshsanders/telicon" target="_blank" class="hero__git-cta">
+				<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 250 250">
+					<path class="corner-bg" d="M0 0l115 115h15l12 27 108 108V0z"/>
+				  	<path class="octo-arm" d="M128 109c-15-9-9-19-9-19 3-7 2-11 2-11-1-7 3-2 3-2 4 5 2 11 2 11-3 10 5 15 9 16" style="-webkit-transform-origin: 130px 106px; transform-origin: 130px 106px"/>
+				  	<path class="octo-body" d="M115 115s4 2 5 0l14-14c3-2 6-3 8-3-8-11-15-24 2-41 5-5 10-7 16-7 1-2 3-7 12-11 0 0 5 3 7 16 4 2 8 5 12 9s7 8 9 12c14 3 17 7 17 7-4 8-9 11-11 11 0 6-2 11-7 16-16 16-30 10-41 2 0 3-1 7-5 11l-12 11c-1 1 1 5 1 5z"/>
+				</svg>
+			</a> 
 			<div class="grid">
-				<div class="grid__row">
-					<div class="grid__col">
-						<h1 class="logo">
-							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="233px" height="75px" viewBox="0 0 233 75" xml:space="preserve">
-								<g class="symbol" fill="#8F35F1">
-									<path d="M24.9,53.8c0.3,0,0.7-0.1,1-0.1c0-0.1,0-0.2,0-0.2c1.2-1.5,2.9-0.3,2.9-0.3l4.1-5.5c0,0-0.2-0.4-0.3-0.6
-										c-0.1,0-0.3-0.1-0.4-0.1c-1.4-0.6-1.9-0.5-1.9-0.5c-0.3,0-0.6,0.1-0.9,0.1l0.3,1c0,0-4.2,5.7-4.6,6.1C25,53.7,24.9,53.8,24.9,53.8
-										z"/>
-									<path d="M36.8,49.6c-0.8-0.5-2.4-2.4-2.4-2.4s-0.3,0-0.7,0l-0.1,0.6l-4,5.4c2.7-0.3,5.4-0.7,8.3-1.3
-										C37.6,50.9,37.1,49.9,36.8,49.6z"/>
-									<path d="M21.4,54l0.2-0.4c0.4-0.8,1.2-0.8,1.6-0.6c0.4,0.2,0.9,0.4,1,0.3c1.4-1,4.6-5.6,4.6-5.6l-0.9-0.9
-										c-1.1-0.1-1.9-0.4-3.2-1.4c-2.2-1.5-0.7-0.6-5.2-2.8c-4.5-2.2-3.9-6.8-3.7-7.2c0.2-0.4,0.8-3,0.8-4.9c0-1.8,1-6.7,1-6.7
-										c0.5-2.7,1.8-4.3,3.8-4.4c2-0.1,2.7,1.6,2.7,1.6h3.5c0,0-2.3,1.9-2.9,2.7s-1.2,2.5-0.4,4.1c0.8,1.6,2.2,1.4,2.2,1.4
-										s1.3-0.2,3.1,1.3c1.7,1.5,4.6,5.7,5,6.3c0.4,0.6,0.8,1.1,2.1,2.7c1.3,1.6,2.3,4.4,2.6,5.6c0.4,1.2,0.3,1.3,0.7,1.8
-										c0.4,0.6,0.2,0.7,0.2,0.7c-0.2,0.2-0.5-0.2-0.5-0.2s-0.3-0.3-0.4-0.4c-0.1-0.1-0.4-0.1-0.4,0.1c0,0.3,0.4,1.2,0.4,1.2
-										c0.1,0.5,0.7,1.7,1.3,2.9C61.2,46.8,73,38.4,75,36.9C74.7,16.5,58,0,37.5,0C16.8,0,0,16.8,0,37.5c0,5.8,1.3,11.3,3.7,16.3
-										C10.5,54.2,21.4,54,21.4,54z"/>
-									<path d="M14,66.7c6.4,5.2,14.6,8.3,23.5,8.3c18.2,0,33.4-13,36.8-30.2C66.5,50.9,46.7,63.8,14,66.7z"/>
-									<path d="M15.3,64.6C49.5,61.1,69,46.8,74.8,41.9c0.1-0.8,0.2-1.6,0.2-2.5c-4,2.8-15.4,9.7-33.6,13.7
-										c0.6,1,1.1,1.9,1.3,2.2c0.6,0.8,0.8,1.4,0.2,1.3c-0.6-0.1-1.5-1.1-1.9-1.5c-0.4-0.4-0.5,0.3-0.5,1.5c0,1.2-0.9,1.6-1.2-0.2
-										c-0.1-0.6-0.3-1.6-0.7-2.7c-7.4,1.4-15.9,2.4-25.4,2.4c-2.7,0-5.5-0.1-8.4-0.3c1.9,3.4,4.3,6.4,7.1,9
-										C12.9,64.8,14.1,64.7,15.3,64.6z"/>
-								</g>
-								<g class="wordmark" fill="#444444">
-									<polygon points="116,23 108,23 105,23 97,23 94,23 94,26 94,31 97,31 97,26 105,26 105,51 101,51 101,54 105,54
-										108,54 112,54 112,51 108,51 108,26 116,26 116,31 119,31 119,26 119,23 		"/>
-									<polygon points="147,51 147,23 147,20 141,20 141,23 144,23 144,51 141,51 141,54 144,54 147,54 150,54 150,51 		"/>
-									<path d="M230,51V41c0,0,0.3-7-6-7c-2.9,0-5.6,2-7,3.2V37v-3h-3h-3v3h3v14h-3v3h3h3h3v-3h-3V39.7
-										c1.2-1.4,3.3-3.3,6-3.3c4,0,4,4.7,4,4.7v10h-3v3h3h3h3v-3H230z"/>
-									<path d="M197.2,37.1c4.5,0,6.5,3.5,6.5,7s-2,7-6.5,7s-6.5-3.5-6.5-7S192.7,37.1,197.2,37.1 M197.2,34.1
-										c-5.8,0-9.5,4.5-9.5,10s3.7,10,9.5,10s9.5-4.5,9.5-10S203,34.1,197.2,34.1L197.2,34.1z"/>
-									<polygon class="st1" points="160,51 160,37 160,34 157,34 154,34 154,37 157,37 157,51 154,51 154,54 157,54 160,54 163,54
-											163,51 			"/>
-									<circle class="st1" cx="158.2" cy="26.3" r="2.2"/>
+				<div class="hero-content">
+					
+					<div class="grid__row">
+						<div class="grid__col">
+							<h1 class="hero__logo">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="294px" height="95px" viewBox="0 0 294 95">
+									<g class="symbol" fill="#8F35F1">
+										<path class="st0" d="M31.5,68.1c0.4,0,0.9-0.1,1.3-0.1c0-0.1,0-0.3,0-0.3c1.5-1.9,3.7-0.4,3.7-0.4l5.2-7c0,0-0.3-0.5-0.4-0.8
+											c-0.1,0-0.4-0.1-0.5-0.1c-1.8-0.8-2.4-0.6-2.4-0.6c-0.4,0-0.8,0.1-1.1,0.1l0.4,1.3c0,0-5.3,7.2-5.8,7.7
+											C31.7,68,31.5,68.1,31.5,68.1z"/>
+										<path class="st0" d="M46.6,62.8c-1-0.6-3-3-3-3s-0.4,0-0.9,0l-0.1,0.8l-5.1,6.8c3.4-0.4,6.8-0.9,10.5-1.6
+											C47.6,64.5,47,63.2,46.6,62.8z"/>
+										<path class="st0" d="M27.1,68.4l0.3-0.5c0.5-1,1.5-1,2-0.8s1.1,0.5,1.3,0.4c1.8-1.3,5.8-7.1,5.8-7.1l-1.1-1.1
+											c-1.4-0.1-2.4-0.5-4.1-1.8c-2.8-1.9-0.9-0.8-6.6-3.5c-5.7-2.8-4.9-8.6-4.7-9.1c0.3-0.5,1-3.8,1-6.2c0-2.3,1.3-8.5,1.3-8.5
+											c0.6-3.4,2.3-5.4,4.8-5.6c2.5-0.1,3.4,2,3.4,2H35c0,0-2.9,2.4-3.7,3.4c-0.8,1-1.5,3.2-0.5,5.2c1,2,2.8,1.8,2.8,1.8s1.6-0.3,3.9,1.6
+											c2.2,1.9,5.8,7.2,6.3,8c0.5,0.8,1,1.4,2.7,3.4c1.6,2,2.9,5.6,3.3,7.1c0.5,1.5,0.4,1.6,0.9,2.3c0.5,0.8,0.3,0.9,0.3,0.9
+											c-0.3,0.3-0.6-0.3-0.6-0.3s-0.4-0.4-0.5-0.5c-0.1-0.1-0.5-0.1-0.5,0.1c0,0.4,0.5,1.5,0.5,1.5c0.1,0.6,0.9,2.2,1.6,3.7
+											c26.1-5.6,41-16.2,43.6-18.1C94.6,20.9,73.5,0,47.5,0C21.3,0,0,21.3,0,47.5c0,7.3,1.6,14.3,4.7,20.6C13.3,68.7,27.1,68.4,27.1,68.4
+											z"/>
+										<path class="st0" d="M17.7,84.5C25.8,91.1,36.2,95,47.5,95c23.1,0,42.3-16.5,46.6-38.3C84.2,64.5,59.2,80.8,17.7,84.5z"/>
+										<path class="st0" d="M19.4,81.8c43.3-4.4,68-22.5,75.4-28.8c0.1-1,0.3-2,0.3-3.2c-5.1,3.5-19.5,12.3-42.6,17.4
+											c0.8,1.3,1.4,2.4,1.6,2.8c0.8,1,1,1.8,0.3,1.6c-0.8-0.1-1.9-1.4-2.4-1.9c-0.5-0.5-0.6,0.4-0.6,1.9c0,1.5-1.1,2-1.5-0.3
+											c-0.1-0.8-0.4-2-0.9-3.4c-9.4,1.8-20.1,3-32.2,3c-3.4,0-7-0.1-10.6-0.4c2.4,4.3,5.4,8.1,9,11.4C16.3,82.1,17.9,82,19.4,81.8z"/>
+									</g>
+									<g class="wordmark" fill="#2e2e32">
+										<path d="M132,33.4l-8.5,0.3l-1.7,7.8h-3.3l0.8-10.7h30.8l0.6,10.7h-3.1l-1.6-7.8l-8.6-0.3v31.2l7,0.5v2.4h-18.9v-2.4l6.4-0.5V33.4z
+											"/>
+										<path d="M155.8,64.1c-2.1-2.6-3.1-6.1-3.1-10.4c0-2.9,0.5-5.4,1.6-7.6c1.1-2.2,2.6-3.9,4.6-5c2-1.2,4.2-1.8,6.7-1.8
+											c3.1,0,5.4,0.8,7.1,2.5c1.7,1.7,2.6,4.1,2.7,7.3c0,2-0.1,3.5-0.3,4.6h-17c0.1,3.3,0.8,5.9,2.3,7.9c1.5,2,3.5,3,6.2,3
+											c1.3,0,2.7-0.2,4.1-0.7c1.4-0.5,2.5-1,3.3-1.7l0.9,2.2c-1,1-2.4,1.8-4.3,2.6c-1.9,0.7-3.8,1.1-5.7,1.1
+											C161,68,157.9,66.7,155.8,64.1z M170,51.1c0.1-0.7,0.1-1.4,0.1-2.1c0-2.1-0.5-3.8-1.4-5.1c-0.9-1.2-2.2-1.9-4.1-1.9
+											c-1.9,0-3.4,0.7-4.6,2.1c-1.1,1.4-1.8,3.7-2,7H170z"/>
+										<path d="M182.8,30.6l-4-0.5V28l8-0.9h0.1l1.1,0.7v36.9l4.2,0.4v2.4h-13.3v-2.4l4-0.4V30.6z"/>
+										<path d="M199.7,43.9l-3.8-0.9v-2.6l7.7-0.9h0.1l1.1,0.9v24.4l4,0.4v2.4h-13.1v-2.4l4-0.4V43.9z M199.3,34.2
+											c-0.5-0.6-0.8-1.4-0.8-2.3c0-1.1,0.3-1.9,1-2.6c0.6-0.7,1.5-1,2.6-1c1.1,0,1.9,0.3,2.5,0.9c0.5,0.6,0.8,1.4,0.8,2.3
+											c0,1.1-0.3,2-1,2.7c-0.6,0.7-1.5,1-2.7,1h0C200.6,35.1,199.8,34.8,199.3,34.2z"/>
+										<path d="M212.4,46.5c1.1-2.2,2.7-4,4.7-5.3c2.1-1.3,4.6-2,7.5-2c1.4,0,2.6,0.1,3.7,0.4s2.2,0.6,3.7,1.1l-0.2,7.6h-3.2l-1.1-5
+											c-0.2-0.9-1.5-1.4-3.8-1.4c-2.3,0-4.1,0.9-5.5,2.8c-1.3,1.9-2,4.5-2,7.9c0,3.9,0.7,6.8,2.2,8.9c1.5,2,3.5,3,5.9,3
+											c1.4,0,2.7-0.2,3.9-0.6c1.2-0.4,2.3-0.9,3.2-1.5l0.9,2c-0.9,0.9-2.2,1.8-3.9,2.5S225,68,223.2,68c-2.7,0-5-0.6-6.8-1.8
+											c-1.9-1.2-3.3-2.9-4.2-5c-0.9-2.1-1.4-4.5-1.4-7.2C210.7,51.2,211.3,48.8,212.4,46.5z"/>
+										<path d="M237.6,46c1.2-2.2,2.8-3.8,4.8-5c2-1.1,4.1-1.7,6.4-1.7c4.2,0,7.3,1.3,9.4,4c2.1,2.6,3.1,6.1,3.1,10.4c0,3-0.6,5.6-1.8,7.8
+											c-1.2,2.2-2.8,3.8-4.8,4.9c-2,1.1-4.1,1.7-6.4,1.7c-4.2,0-7.3-1.3-9.4-4c-2.1-2.6-3.1-6.1-3.1-10.4C235.8,50.7,236.4,48.2,237.6,46
+											z M253.8,62.4c1.2-1.9,1.8-4.7,1.8-8.4c0-3.7-0.6-6.6-1.7-8.7c-1.1-2.1-2.9-3.2-5.4-3.2c-2.3,0-4,0.9-5.3,2.8
+											c-1.2,1.9-1.9,4.7-1.9,8.4c0,3.7,0.6,6.6,1.7,8.7c1.2,2.1,2.9,3.2,5.4,3.2C250.8,65.2,252.6,64.3,253.8,62.4z"/>
+										<path d="M267.7,43.9l-3.6-0.9v-2.7l7.1-0.9h0.1l1,0.9v2.1l0,1.2c1.2-1.1,2.8-2,4.7-2.9c1.9-0.9,3.8-1.3,5.6-1.3
+											c2.1,0,3.7,0.4,4.8,1.2c1.1,0.8,1.9,2,2.4,3.6c0.5,1.6,0.7,3.8,0.7,6.6v13.8L294,65v2.5h-11.7v-2.4l3.1-0.4V50.8
+											c0-1.9-0.1-3.5-0.4-4.6c-0.3-1.1-0.8-1.9-1.5-2.5c-0.7-0.5-1.8-0.8-3.2-0.8c-1.2,0-2.5,0.3-3.8,0.9c-1.4,0.6-2.6,1.3-3.6,2.1v18.7
+											l3.4,0.4v2.4h-11.7v-2.4l3.1-0.4V43.9z"/>
+									</g>
+								</svg>
 
-									<path d="M183.3,37.5L183.3,37.5C183.3,37.5,183.3,37.5,183.3,37.5c-0.1-0.1-0.1-0.1-0.1-0.2c0,0,0,0-0.1,0
-										c-1.6-1.9-4-3.1-6.9-3.1c-5.7,0-9.3,4.5-9.3,10c0,6.7,4.6,10,10.2,10c3,0,4.5-1.2,5.9-2.1v-3.3c-1,1.4-3.6,2.4-5.9,2.4
-										c-4.4,0-7.3-2.2-7.3-7c0-3.5,2-7,6.3-7c1.7,0,3.1,0.5,4.1,1.4c-0.3,0.4-0.6,0.9-0.6,1.4c0,1.1,0.9,2,2,2c0.6,0,1.1-0.3,1.5-0.7
-										l0,0C184.2,40.2,184.3,38.6,183.3,37.5z"/>
-									<path d="M138,44c0-5.5-3.7-9.9-9.5-9.9c-5.8,0-9.5,4.5-9.5,10c0,6.7,4.7,10,10.5,10c3.1,0,5.1-1.2,6.5-2.1v-3.3
-										c-1.1,1.4-4.2,2.4-6.5,2.4c-4.2,0-7.1-1.9-7.5-6.1h16L138,44L138,44z M128.5,37.1c3.6,0,5.6,2.2,6.2,4.9h-12.5
-										C122.9,39.4,124.9,37.1,128.5,37.1z"/>
-								</g>
-							</svg>
+								<!-- <span class="version-tag">(2.0.0)</span> -->
+							</h1>
+						</div>
+					</div> 
 
-							<span class="version-tag">(2.0.0)</span>
-						</h1>
+					<div class="grid__row">
+						<div class="grid__col md:col--8 lg:col--6">
+							<h4 class="hero__intro">An SVG icon system for Monster UI&reg;&mdash;an interface layer for the Unified Communications platform KAZOO&reg;.</h4>
+
+						</div>
 					</div>
-				</div> <!-- /grid__row -->
-			</div>  <!-- /grid -->
+
+					<div class="grid__row">
+						<div class="grid__col md:col--8 lg:col--6">
+							<div class="hero__actions">
+								<a class="hero__btn" href="#get-started">Get Started</a>
+								<a class="hero__btn" href="icon-sheet.html">View Icons</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</header>
 
-		<section class="icons">
-			<div class="grid">
-				<header class="section-header">
-					<div class="grid__row">
-						<div class="grid__col md:col--4 lg:col--6">
-							<h1 class="section-title">Icons Reference Sheet</h1>
-						</div>
-						<div class="grid__col md:col--4 lg:col--6">
-							<input class="input--search" placeholder="Search icons...">
-						</div>
-					</div>
-				</header>
 
-				<div class="grid__row icons-list js-populate-icons-list">
-					<!-- icons are inserted here by icons.js -->
+
+		<section class="section--overview" id="get-started">
+			<div class="grid">
+				<div class="grid__row">
+					<div class="grid__col md:col--8 lg:col--8">
+						<h2 class="section-title">Getting Started</h2>
+
+						<p>All Telicon icons are compiled to a single SVG sprite <code class="code--inline"><span class="js-version-tag"></span></code> which can be found in the <code class="code--inline">/dist</code> folder of the project. To begin using Telicon icons, simply copy this .svg file to the desired location within your project structure (a good suggestion is the <code class="code--inline">/img</code> folder). An added benefit here is that the file will be cached by the browser, meaning only one server request is needed for the entire library of icons.</p>
+
+						<p>Once you've included Telicon in your project, placing icons in your layout is quite simple. By nesting a self-closing <code class="code--inline">&lt;use&gt;</code> element within an <code class="code--inline">&lt;svg&gt;</code> tag, you can reference the ID of an individual icon from the sprite. This will embed that specific icon within the <code class="code--inline">&lt;svg&gt;</code> element.</p>
+					</div>
 				</div>
+
+				<div class="grid__row">
+					<div class="grid__col md:col--8 lg:col--8">
+
+						<div class="icon-example">
+							<svg class="icon">
+								<use href="img/telicon-2.0.0.svg#device-voip-phone" />
+							</svg>
+							<svg class="icon">
+								<use href="img/telicon-2.0.0.svg#operator" />
+							</svg>
+							<svg class="icon">
+								<use href="img/telicon-2.0.0.svg#phone-inbound" />
+							</svg>
+							<svg class="icon">
+								<use href="img/telicon-2.0.0.svg#thumbs-up" />
+							</svg>
+						</div>
+
+						<p>
+							<div class="code__block code__block--html">
+								<pre class="code__pre">
+									<code class="code">
+
+										&lt;body&gt;<br>
+										<span class="indent"></span><em>body content...</em><br><br>
+										<span class="indent"></span>&lt;svg class="icon"&gt;<br>
+											<span class="indent--2x"></span>&lt;use xlink:href="your&frasl;path&frasl;to&frasl;<span class="js-version-tag"></span><span class="highlight">#device-voip-phone</span>" &frasl;&gt;<br>
+										<span class="indent"></span>&lt;/svg&gt;<br><br>
+										<span class="indent"></span>&lt;svg class="icon"&gt;<br>
+											<span class="indent--2x"></span>&lt;use xlink:href="your&frasl;path&frasl;to&frasl;<span class="js-version-tag"></span><span class="highlight">#operator</span>" &frasl;&gt;<br>
+										<span class="indent"></span>&lt;/svg&gt;<br><br>
+										<span class="indent"></span>&lt;svg class="icon"&gt;<br>
+											<span class="indent--2x"></span>&lt;use xlink:href="your&frasl;path&frasl;to&frasl;<span class="js-version-tag"></span><span class="highlight">#phone-inbound</span>" &frasl;&gt;<br>
+										<span class="indent"></span>&lt;/svg&gt;<br><br>
+										<span class="indent"></span>&lt;svg class="icon"&gt;<br>
+											<span class="indent--2x"></span>&lt;use xlink:href="your&frasl;path&frasl;to&frasl;<span class="js-version-tag"></span><span class="highlight">#thumbs-up</span>" &frasl;&gt;<br>
+										<span class="indent"></span>&lt;/svg&gt;<br><br>
+										<span class="indent"></span><em>other body content...</em><br>
+										&lt;/body&gt;<br>
+										
+									</code>
+								</pre>
+							</div>
+						</p>
+						
+						<p>Notice that there is an <code class="code--inline">.icon</code> class applied to the <code class="code--inline">&lt;svg&gt;</code> element. It is recommended to use a helper class to size and position your icons, as svg elements will fill 100% width of their parent containers otherwise. The following code can be copied/modified to suit your needs, or if you wish to manipulate styles on a per-icon basis that is an option as well. Regardless of which route you take, you will need to implement some sort of base styles.</p>
+
+						<p>
+							<div class="code__block code__block--css">
+								<pre class="code__pre">
+									<code class="code">
+
+										.icon { <br>
+										<span class="indent"></span><span class="comment">/* Default size for Telicon icons 16px = 1rem */</span><br>
+										<span class="indent"></span>height: 1rem;<br>
+										<span class="indent"></span>width: 1rem;<br><br>
+
+										<span class="indent"></span><span class="comment">/* Control position and alignment */</span><br>
+										<span class="indent"></span>display: inline-block;<br>
+										<span class="indent"></span>line-height: inherit;<br>
+										<span class="indent"></span>vertical-align: middle;<br><br>
+
+										<span class="indent"></span><span class="comment">/* Let the icon take whatever color the parent has */</span><br>
+										<span class="indent"></span>fill: currentColor;<br><br>
+
+										<span class="indent"></span><span class="comment">/* Prevent the icon from shrinking inside a flex container */</span><br>
+										<span class="indent"></span>flex-shrink: 0;<br>
+										}
+									</code>
+								</pre>
+							</div>
+						</p>
+
+						<p>And that's it! Telicon icons should now be rendering in your layouts.</p>
+
+						<p>To view all currently available icons, check out the <a class="link" href="icon-sheet.html">icon reference sheet</a>.</p>
+
+						<p>You can follow and learn more about the project's progress on <a class="link" href="https://github.com/joshsanders/telicon" target="_blank">github</a>.</p>
+					</div> <!-- /grid__col -->
+				</div> 
+
+				
+
 			</div>
 		</section>
 
 
-		<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
-		<script type="text/javascript" src="js/clipboard.min.js"></script>
-		<script type="text/javascript" src="js/jquery.fastLiveFilter.js"></script>
-		<!-- <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script> -->
-		<script type="text/javascript" src="js/toastr.js"></script>
 
-		<script type="text/javascript" src="js/icons.js"></script>
-		<script type="text/javascript" src="js/demo.js"></script>
+		<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+
+		<script type="text/javascript">
+			// version tag handling for in-content reference 
+			var version = "2.0.0";
+			$('.js-version-tag').html('telicon-'+ version +'.svg');
+			$('.js-version').html(version);
+		</script>
+
+		<!-- <script type="text/javascript" src="js/clipboard.min.js"></script>
+		<script type="text/javascript" src="js/jquery.fastLiveFilter.js"></script> -->
+
+		<!-- <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script> -->
+
+		<!-- <script type="text/javascript" src="js/toastr.js"></script> -->
+
+		<!-- <script type="text/javascript" src="js/icons.js"></script> -->
+		<!-- <script type="text/javascript" src="js/demo.js"></script> -->
 	</body>
 </html>

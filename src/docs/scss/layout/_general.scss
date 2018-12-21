@@ -6,11 +6,13 @@
  
 html {
   background: $color--primary;
+
+  scroll-behavior: smooth;
 }
 
 body {
-	color: #444444;
-	background: #ffffff;
+	color: #2e2e32;
+	background: $color--white;
 	margin: 0;
 	min-height: 100vh;
 }
@@ -20,52 +22,50 @@ section.icons {
 }
 
 .section-header {
-  border-bottom: 1px solid #c4c4c4;
+  border-bottom: 1px solid $color--smoke-1;
   margin-bottom: 2.5rem;
   transition: all .2s ease-out;
+  padding-bottom: 1rem;
 
-  &.js-is-fixed {
-    position: fixed;
-    padding: 1rem;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background: #fff;
+  // &.js-is-fixed {
+  //   position: fixed;
+  //   padding: 1rem;
+  //   width: 100%;
+  //   top: 0;
+  //   left: 0;
+  //   z-index: 1;
+  //   background: #fff;
 
-    .grid__row {
-      margin-bottom: 0;
-    }
+  //   .grid__row {
+  //     margin-bottom: 0;
+  //   }
 
-  }
+  // }
 
-  .grid__row {
-    margin-bottom: .5rem;
-  }
+  // .grid__row {
+  //   margin-bottom: .5rem;
+  // }
 
-  .section-title {
-    font-size: 2rem;
-    font-weight: 400;
-    color: #949494;
-    margin: 0;
-  }
+  
 
   .input--search {
-    // display: inline-block;
-    line-height: 2rem;
-    // width: 300px;
+    // line-height: 2rem;
+    // width: 100%;
+    // font-size: 1rem;
+    // border: 1px solid #c4c4c4;
+    // padding-left: 8px;
+    // color: $color--primary;
+    // letter-spacing: -.02em;
     width: 100%;
     font-size: 1rem;
     border: 1px solid #c4c4c4;
-    padding-left: 8px;
+    padding: 12px 16px;
     color: $color--primary;
     letter-spacing: -.02em;
-    // float: right;
+    @include border-radius(3px);
 
     @include grid(sm) {
-      // float: none;
       margin-top: 1rem;
-      // width: 100%;
     }
 
     &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -103,7 +103,36 @@ section.icons {
 
 }
 
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: $color--char-2;
+  margin: 0;
+}
+
+.section--overview {
+  padding: 4rem;
+
+  .section-title {
+    margin-bottom: 1.5rem;
+  }
+
+}
+
+.icon-example {
+  margin: 1rem 0 2rem 0;
+
+  .icon {
+    margin-right: 0.75rem;
+  }
+
+}
+
 .icons-list {
+
+  .icon {
+    margin-right: 12px;
+  }
 
   // &.js-fixed--mt-adjust {
   //   margin-top: 5rem;
@@ -144,11 +173,15 @@ section.icons {
 }
 
 .icon {
-  width: 16px;
-  height: 16px;
+  width: 1rem;
+  height: 1rem;
+  // width: 1em;
+  // height: 1em;
   // fill: #64646c;
   fill: currentColor;
-  line-height: 1em;
+  line-height: inherit;
   vertical-align: middle;
-  margin-right: 0.75rem;
+  
 }
+
+

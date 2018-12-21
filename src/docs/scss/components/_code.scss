@@ -1,26 +1,26 @@
 .code--inline {
 	font-family: $font-family--mono;
 	color: $color--primary;
-    padding: 3px 7px 2px 5px;
-    border: 1px solid rgba(192, 192, 201, 0.75);
+    padding: 3px 5px 2px 5px;
+    border: 1px solid $color--smoke-1;
     background: #fff;
     border-radius: 2px;
-    font-size: .9375rem;
+    font-size: .875rem;
     white-space: nowrap;
 }
-.code-wrap {
+.code__block {
 	border-radius: 2px;
 	display: block;
     position: relative;
-    background: $color--white;
-    box-shadow: 0 0 30px 0px rgba(0,0,0,.15);
+    background: $color--smoke-2;
+    // box-shadow: 0 1px 4px 0 rgba(46, 46, 50, 0.24);
     padding: 1.5rem;
     overflow-x: scroll;
     word-wrap: normal;
 
   	&:before {
 	    font-family: $font-family--sans;
-	    color: $color--steel-1;
+	    color: $color--char-2;
 		font-size: .875rem;
 		letter-spacing: .04em;
 		position: absolute;
@@ -29,8 +29,10 @@
 		padding: .75rem;
 		text-align: center;
 		border-top-right-radius: 2px;
-		border-left: 1px solid #c0c0c9;
-		border-bottom: 1px solid #c0c0c9;
+		// border-left: 1px solid #c0c0c9;
+		// border-bottom: 1px solid #c0c0c9;
+		background: $color--smoke-1;
+		z-index: 2;
 	}
 
   	&--html:before {
@@ -41,7 +43,15 @@
 		content: "CSS";
 	}
 
-	code {
+	.code__pre {
+		overflow-x: auto;
+	    -ms-word-wrap: normal;
+	    word-wrap: normal;
+	    overflow-wrap: normal;
+	    white-space: nowrap;
+	}
+
+	.code {
 		font-family: $font-family--mono;
 		font-size: .875rem;
 	}
@@ -63,6 +73,10 @@
 	.value {
 		color: $color--primary;
 		display: inline-block;
+	}
+
+	.comment {
+		color: $color--steel-2;
 	}
 }
 // code .attribute {

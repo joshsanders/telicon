@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   // instantiate search filter
   $(function() {
       $('.input--search').fastLiveFilter('.icons-list');
@@ -9,7 +10,7 @@ $(document).ready(function() {
 
   clipboard.on('success', function(e) {
 
-    toastr["success"]("Class name copied to clipboard", toastr.options = {
+    toastr["success"]("Icon name copied to clipboard", toastr.options = {
       "closeButton": false,
       "debug": false,
       "newestOnTop": false,
