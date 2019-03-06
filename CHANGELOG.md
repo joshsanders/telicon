@@ -4,6 +4,34 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ---
 
+###In-progress
+
+- `loose ???`
+- `strict ???`
+
+---
+
+## [2.2.0] - `2019-3-05`
+
+### Added
+- 12 new icons added: `src/icons/svg/...`
+  * `arrow-from-top`
+  * `arrow-from-right`
+  * `arrow-from-bottom`
+  * `arrow-from-left`
+  * `carets-sortable`
+  * `drag-handle`
+  * `folder-open`
+  * `layers--2`
+  * `layers--3`
+  * `link`
+  * `paper-clip`
+  * `shopping-cart`
+
+---
+
+---
+
 ## [2.1.0] - `2019-1-24`
 
 ### Changed

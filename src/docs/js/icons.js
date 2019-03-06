@@ -7,6 +7,10 @@ $(document).ready(function() {
         'arrow-down--circle-o',
         'arrow-down--circle',
         'arrow-down',
+        'arrow-from-bottom',
+        'arrow-from-left',
+        'arrow-from-right',
+        'arrow-from-top',
         'arrow-left--circle-o',
         'arrow-left--circle',
         'arrow-left',
@@ -38,6 +42,7 @@ $(document).ready(function() {
         'caret-left',
         'caret-right',
         'caret-up',
+        'carets-sortable',
         'check--circle-o',
         'check--circle',
         'chevron-double-down',
@@ -65,6 +70,7 @@ $(document).ready(function() {
         'downgrade',
         'download-cloud',
         'download',
+        'drag-handle',
         'ear',
         'edit',
         'ellipses',
@@ -76,6 +82,7 @@ $(document).ready(function() {
         'failover',
         'file-o',
         'file',
+        'folder-open',
         'folder',
         'forward',
         'global',
@@ -85,7 +92,10 @@ $(document).ready(function() {
         'info--circle-o',
         'info--circle',
         'ip-address',
+        'layers--2',
+        'layers--3',
         'lightning-bolt',
+        'link',
         'list-prioritize',
         'list',
         'location-pin',
@@ -105,6 +115,7 @@ $(document).ready(function() {
         'num-pad',
         'number',
         'operator',
+        'paper-clip',
         'park--circle-o',
         'park--circle',
         'pause--circle-o',
@@ -137,6 +148,7 @@ $(document).ready(function() {
         'service-provider',
         'setting-cog-double',
         'setting-cog',
+        'shopping-cart',
         'speaking',
         'star',
         'stop--circle',
@@ -167,6 +179,6 @@ $(document).ready(function() {
     $.each(icons, function(index, value) {
         // $('.js-populate-icons-list').append('<div class="grid__col md:col--4 lg:col--3"><div class="icon-container" data-clipboard-text="' + value + '"><i class="'+ value +'" aria-hidden="true"></i><span>' + value + '</span></div></div>');
         $('.js-populate-icons-list').append(
-            '<div class="grid__col md:col--4 lg:col--3"><div class="icon-container" data-clipboard-text="' + value + '"><svg class="icon"><use xlink:href="img/telicon-2.1.0.svg#'+ value +'" /></svg><span>' + value + '</span></div></div>');
+            '<div class="grid__col md:col--4 lg:col--3"><div class="icon-container" data-clipboard-text="' + value + '"><svg class="icon"><use xlink:href="img/telicon-2.2.0.svg#'+ value +'" /></svg><span>' + value + '</span></div></div>');
     });
 });
