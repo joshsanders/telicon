@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M12 3H3v10h1.5V4.5H12z"/><path d="M9 0H0v10h1.5V1.5H9zM6 6h9v10H6z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<g>
+	<rect x="6" y="6" width="9" height="10"/>
+	<polygon points="3,3 3,13 4.5,13 4.5,4.5 12,4.5 12,3 	"/>
+	<polygon points="0,0 0,10 1.5,10 1.5,1.5 9,1.5 9,0 	"/>
+</g>
+</svg>

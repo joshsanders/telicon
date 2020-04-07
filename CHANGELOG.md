@@ -4,10 +4,73 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ---
 
-###In-progress
+### 🚧 W.I.P. 🚧
 
-- `loose ???`
-- `strict ???`
+- !? need to update `bell-slash`, `headphones-slash`, `eye-slash`, and `phone-slash` to have consistent slash with rest of slash icons
+
+WYSIWYG customs(one day):
+- text-size
+- bold
+- italic
+- underline
+- strikethrough
+- font
+- align-left
+- align-center
+- align-right
+- align-justify
+- list-numbered
+- indent
+- outdent
+- unlink
+- image
+- undo [refresh ?]
+- redo
+- code
+
+---
+
+## [3.0.0] - `2020-4-05`
+
+### Added
+- 28 new icons added: `src/icons/svg/...`
+  * `backspace`
+  * `bullhorn`
+  * `cancel`
+  * `check`
+  * `copy`
+  * `dot`
+  * `folder-check`
+  * `folder-group`
+  * `folder-minus`
+  * `folder-plus`
+  * `folder-star`
+  * `funnel`
+  * `lightbulb`
+  * `lightbulb-slash`
+  * `paper-plane`
+  * `phone-slash`
+  * `server`
+  * `terminal`
+  * `video`
+  * `video-slash`
+  * `volume-1`
+  * `volume-2`
+  * `volume-slash`
+  * `volume-x`
+  * `warning--circle`
+  * `warning--circle-o`
+  * `warning--octagon`
+  * `x--octagon`
+
+### Changed
+Updated gulp dependency for docs site, which required a small re-write of the `gulpfile.js`file to reflect new syntax and function implememntation in gulp. This is one of the reasons this set of changes is being considered a <major> version bump.
+
+- Renamed `storage-server-stack` icon to `db-storage` now that a server icon has been added to project
+
+### Removed
+- 1 icon removed:
+  * `root-level` (redundant to have this icon as well as the layers icons, and layers icons are cleaner)
 
 ---
 
