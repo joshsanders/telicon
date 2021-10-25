@@ -89,6 +89,7 @@ $(document).ready(function() {
         'failover',
         'file-o',
         'file',
+        'flag',
         'folder',
         'folder-check',
         'folder-group',
@@ -206,6 +207,6 @@ $(document).ready(function() {
     $.each(icons, function(index, value) {
         // $('.js-populate-icons-list').append('<div class="grid__col md:col--4 lg:col--3"><div class="icon-container" data-clipboard-text="' + value + '"><i class="'+ value +'" aria-hidden="true"></i><span>' + value + '</span></div></div>');
         $('.js-populate-icons-list').append(
-            '<div class="grid__col md:col--4 lg:col--3"><div class="icon-container" data-clipboard-text="' + value + '"><svg class="icon"><use xlink:href="img/telicon-3.0.0.svg#'+ value +'" /></svg><span>' + value + '</span></div></div>');
+            '<div class="grid__col md:col--4 lg:col--3"><div class="icon-container" data-clipboard-text="' + value + '"><svg class="icon"><use xlink:href="img/telicon.svg#'+ value +'" /></svg><span>' + value + '</span></div></div>');
     });
 });
