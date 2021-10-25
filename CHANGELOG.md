@@ -30,6 +30,20 @@ WYSIWYG customs(one day):
 
 ---
 
+## [3.1.0] - `2021-10-25`
+
+### Added
+- 4 new icons added: `src/icons/svg/...`
+  * `flag`
+  * `puzzle-piece`
+  * `tag`
+  * `book`
+
+### Changed
+Having massive issues with the dev environment here... npm, sass, and gulp are all broken. Tried running some npm updates but getting deeper down the broken rabbit hole so ignoring for now and manually editing `/docs` and `/dist` as temp. quick fixes to get teams the icons they need. 
+
+---
+
 ## [3.0.0] - `2020-4-05`
 
 ### Added
