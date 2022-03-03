@@ -30,6 +30,21 @@ WYSIWYG customs(one day):
 
 ---
 
+## [3.2.0] - `2022-03-03`
+
+### Added
+- x new icons added: `src/icons/svg/...`
+  * `camera`
+  * `camera-slash`
+  * `device-monitor`
+  * `device-monitor-slash`
+  * `menu`
+  * `wifi`
+  * `wifi-no-connection`
+
+### Notes! 
+Having massive issues with the dev environment here... npm, sass, and gulp are all broken. Tried running some npm updates but getting deeper down the broken rabbit hole so ignoring for now and manually editing `/docs` and `/dist` as temp. quick fixes to get teams the icons they need. 
+
 ## [3.1.0] - `2021-10-25`
 
 ### Added
@@ -39,7 +54,7 @@ WYSIWYG customs(one day):
   * `tag`
   * `book`
 
-### Changed
+### Notes! 
 Having massive issues with the dev environment here... npm, sass, and gulp are all broken. Tried running some npm updates but getting deeper down the broken rabbit hole so ignoring for now and manually editing `/docs` and `/dist` as temp. quick fixes to get teams the icons they need. 
 
 ---
