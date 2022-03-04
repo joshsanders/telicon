@@ -73,6 +73,7 @@ $(document).ready(function() {
         'device-mobile',
         'device-monitor',
         'device-monitor-slash',
+        'device-mst',
         'device-soft-phone',
         'device-sprint-phone',
         'device-tablet',

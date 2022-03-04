@@ -338,6 +338,14 @@
     <path d="M15,0L0,15l1,1l3-3h12V1L15,0z M15,11H6l9-9V11z"/>
   </symbol>
 
+  <symbol id="device-mst" viewBox="0 0 16 16">
+    <path d="M0,14l10,2V0L0,2V14z M2.5,4.8h5v1.5H5.8V12H4.3V6.2H2.5V4.8z"/>
+    <path d="M14,12h1c0.6,0,1-0.4,1-1V7h-2V12z"/>
+    <circle cx="15" cy="5" r="1"/>
+    <path d="M11,13h1c0.6,0,1-0.4,1-1V6h-2V13z"/>
+    <circle cx="12" cy="4" r="1"/>
+  </symbol>
+
   <symbol id="device-soft-phone" viewBox="0 0 16 16">
     <path d="M15 1v10H1V1h14m1-1H0v13h16V0z"/>
     <path d="M15 1v10H1V1h14m1-1H0v13h16V0z"/>
